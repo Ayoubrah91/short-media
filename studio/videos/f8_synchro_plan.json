@@ -1,0 +1,185 @@
+{
+ "name": "f8_synchro",
+ "dir": "ltr",
+ "duration": "auto",
+ "handle": "",
+ "scenes": [
+  {
+   "start": 0,
+   "end": "@trois-0.12",
+   "title": {
+    "bold": "Double",
+    "accent": "réservation"
+   },
+   "prop": "search",
+   "items": [
+    {
+     "type": "list",
+     "at": "@deux",
+     "label": "MÊME SOIR · MÊME LOGEMENT",
+     "items": [
+      {
+       "at": "@deux",
+       "text": "Voyageur 1 · Airbnb",
+       "mark": null,
+       "markAt": null
+      },
+      {
+       "at": "@soir",
+       "text": "Voyageur 2 · Booking",
+       "mark": "no",
+       "markAt": "@logement/e"
+      }
+     ],
+     "minRows": 2
+    },
+    {
+     "type": "stamp",
+     "at": "@cauchemar",
+     "text": "Le cauchemar",
+     "rot": -6
+    },
+    {
+     "type": "note",
+     "at": "@reste",
+     "text": "comment l'éviter"
+    }
+   ]
+  },
+  {
+   "start": "@trois-0.05",
+   "end": "@règle#2-0.12",
+   "title": {
+    "accent": "3 règles"
+   },
+   "prop": "search"
+  },
+  {
+   "start": "@règle#2-0.05",
+   "end": "@règle#3-0.12",
+   "title": {
+    "num": 1,
+    "bold": "Synchronise",
+    "accent": "tes calendriers"
+   },
+   "prop": "pencil",
+   "items": [
+    {
+     "type": "title",
+     "at": "@synchronise",
+     "label": "AIRBNB · BOOKING",
+     "text": "Calendriers synchronisés",
+     "dark": true
+    },
+    {
+     "type": "pill",
+     "at": "@ical",
+     "text": "iCal : pas instantané"
+    }
+   ]
+  },
+  {
+   "start": "@règle#3-0.05",
+   "end": "@règle#4-0.12",
+   "title": {
+    "num": 2,
+    "bold": "Channel",
+    "accent": "manager"
+   },
+   "prop": "star",
+   "items": [
+    {
+     "type": "title",
+     "at": "@channel",
+     "label": "PLUSIEURS LOGEMENTS OU PLATEFORMES",
+     "text": "Channel manager"
+    },
+    {
+     "type": "pill",
+     "at": "@automatiquement",
+     "text": "mise à jour automatique"
+    }
+   ]
+  },
+  {
+   "start": "@règle#4-0.05",
+   "end": "@propre-1.0",
+   "title": {
+    "num": 3,
+    "bold": "Réservation",
+    "accent": "en direct"
+   },
+   "prop": "shield",
+   "items": [
+    {
+     "type": "list",
+     "at": "@bloque",
+     "label": "BLOQUE LES DATES",
+     "items": [
+      {
+       "at": "@immédiatement",
+       "text": "Immédiatement",
+       "mark": "ok",
+       "markAt": "@immédiatement/e"
+      },
+      {
+       "at": "@partout",
+       "text": "Partout",
+       "mark": "ok",
+       "markAt": "@partout/e"
+      }
+     ],
+     "minRows": 2
+    }
+   ]
+  },
+  {
+   "start": "@propre-0.95",
+   "end": "@commente-0.12",
+   "title": {
+    "accent": "Résultat"
+   },
+   "prop": "check",
+   "items": [
+    {
+     "type": "list",
+     "at": "@propre",
+     "label": "CALENDRIER PROPRE",
+     "items": [
+      {
+       "at": "@zéro",
+       "text": "Zéro annulation",
+       "mark": "ok",
+       "markAt": "@annulation/e"
+      },
+      {
+       "at": "@zéro#2",
+       "text": "Zéro mauvais avis",
+       "mark": "ok",
+       "markAt": "@avis/e"
+      }
+     ],
+     "minRows": 2
+    }
+   ],
+   "happy": [
+    [
+     "@zéro#2",
+     "@commente"
+    ]
+   ]
+  },
+  {
+   "start": "@commente-0.05",
+   "end": 999,
+   "cta": {
+    "at": "@commente",
+    "word": "Commente",
+    "key": "SYNCHRO",
+    "crewAt": "@synchro",
+    "note": "et je t'envoie ma checklist",
+    "noteAt": "@t'envoie"
+   }
+  }
+ ]
+}

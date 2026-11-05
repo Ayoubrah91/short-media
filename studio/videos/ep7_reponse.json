@@ -1,0 +1,891 @@
+{
+ "engine": "engine2.html",
+ "series": "LOCATION COURTE DURÉE",
+ "duration": 45.22,
+ "ep": 7,
+ "name": "ep7_reponse",
+ "chapters": [
+  14.44,
+  18.08,
+  21.28,
+  25.72
+ ],
+ "emph": [
+  "négatif",
+  "réflexe",
+  "défendre",
+  "mauvaise",
+  "idée",
+  "futurs",
+  "lire",
+  "quatre",
+  "attends",
+  "froid",
+  "remercie",
+  "reconnais",
+  "justifier",
+  "corrigé",
+  "réparé",
+  "phrases",
+  "jamais",
+  "personnelles",
+  "calme",
+  "pro"
+ ],
+ "coral": [
+  "froid",
+  "calme"
+ ],
+ "beats": [
+  {
+   "type": "stars",
+   "at": 0,
+   "label": "Nouvel avis",
+   "to": 2.0,
+   "fillAt": 1.12
+  },
+  {
+   "type": "list",
+   "at": 2.32,
+   "title": "Premier réflexe",
+   "items": [
+    {
+     "at": 3.547,
+     "text": "Répondre tout de suite",
+     "mark": "no",
+     "markAt": 4.64
+    },
+    {
+     "at": 4.96,
+     "text": "Se défendre",
+     "mark": "no",
+     "markAt": 6.24
+    }
+   ]
+  },
+  {
+   "type": "grid",
+   "at": 7.013,
+   "items": [
+    {
+     "icon": "user",
+     "label": "Ce voyageur",
+     "at": 8.32,
+     "offAt": 9.32
+    },
+    {
+     "icon": "user",
+     "label": "Futurs voyageurs",
+     "at": 10.16,
+     "onAt": 11.44
+    }
+   ],
+   "chips": [
+    {
+     "at": 11.44,
+     "text": "Ta réponse est publique",
+     "x": 290,
+     "y": 860,
+     "kind": "coral"
+    }
+   ]
+  },
+  {
+   "type": "icon",
+   "at": 12.2,
+   "icon": "check",
+   "label": "La méthode",
+   "onAt": 13.6,
+   "chips": [
+    {
+     "at": 13.6,
+     "text": "4 étapes",
+     "x": 440,
+     "y": 760,
+     "kind": "coral"
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "at": 14.44,
+   "num": "01",
+   "label": "À froid"
+  },
+  {
+   "type": "icon",
+   "at": 15.52,
+   "icon": "clock",
+   "label": "Quelques heures",
+   "onAt": 16.16,
+   "chips": [
+    {
+     "at": 17.32,
+     "text": "Réponds à froid",
+     "x": 390,
+     "y": 760,
+     "kind": "coral"
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "at": 18.08,
+   "num": "02",
+   "label": "Remercie"
+  },
+  {
+   "type": "icon",
+   "at": 19.067,
+   "icon": "heart",
+   "label": "Merci pour ton séjour",
+   "onAt": 20.44
+  },
+  {
+   "type": "chapter",
+   "at": 21.28,
+   "num": "03",
+   "label": "Reconnais"
+  },
+  {
+   "type": "icon",
+   "at": 22.32,
+   "icon": "check",
+   "label": "Reconnais le problème",
+   "onAt": 22.88,
+   "chips": [
+    {
+     "at": 24.04,
+     "text": "Pas 10 lignes de justification",
+     "x": 230,
+     "y": 760,
+     "kind": "dark",
+     "icon": "x"
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "at": 25.72,
+   "num": "04",
+   "label": "Ce qui a changé"
+  },
+  {
+   "type": "chat",
+   "at": 26.853,
+   "msgs": [
+    {
+     "me": true,
+     "text": "Merci pour votre retour. Le chauffage a été réparé depuis.",
+     "at": 28.48
+    }
+   ],
+   "chips": [
+    {
+     "at": 30.16,
+     "text": "Problème corrigé",
+     "x": 380,
+     "y": 1000,
+     "kind": "coral",
+     "icon": "check"
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "at": 30.96,
+   "cols": [
+    {
+     "k": "Ta réponse",
+     "big": "3-4",
+     "s": "phrases",
+     "tone": "good",
+     "at": 31.52
+    },
+    {
+     "k": "Infos perso",
+     "big": "0",
+     "s": "jamais",
+     "tone": "bad",
+     "at": 33.28
+    }
+   ]
+  },
+  {
+   "type": "icon",
+   "at": 36.0,
+   "icon": "trophy",
+   "label": "Calme et pro",
+   "onAt": 37.68,
+   "chips": [
+    {
+     "at": 38.4,
+     "text": "Rassure les prochains voyageurs",
+     "x": 200,
+     "y": 760,
+     "kind": "coral"
+    }
+   ]
+  },
+  {
+   "type": "subscribe",
+   "at": 39.68,
+   "clickAt": 40.38,
+   "next": "Les équipements que les voyageurs filtrent",
+   "nextAt": 40.72,
+   "nextIcon": "search"
+  }
+ ],
+ "words": [
+  [
+   "[serious]",
+   0.0,
+   0.064
+  ],
+  [
+   "Tu",
+   0.08,
+   0.12
+  ],
+  [
+   "viens",
+   0.16,
+   0.32
+  ],
+  [
+   "de",
+   0.36,
+   0.4
+  ],
+  [
+   "recevoir",
+   0.48,
+   0.96
+  ],
+  [
+   "un",
+   1.0,
+   1.04
+  ],
+  [
+   "avis",
+   1.12,
+   1.28
+  ],
+  [
+   "négatif.",
+   1.36,
+   2.24
+  ],
+  [
+   "Ton",
+   2.32,
+   2.4
+  ],
+  [
+   "premier",
+   2.48,
+   2.64
+  ],
+  [
+   "réflexe",
+   2.72,
+   3.28
+  ],
+  [
+   ":",
+   3.44,
+   3.493
+  ],
+  [
+   "répondre",
+   3.547,
+   4.0
+  ],
+  [
+   "tout",
+   4.04,
+   4.08
+  ],
+  [
+   "de",
+   4.16,
+   4.24
+  ],
+  [
+   "suite,",
+   4.36,
+   4.64
+  ],
+  [
+   "pour",
+   4.68,
+   4.72
+  ],
+  [
+   "te",
+   4.8,
+   4.88
+  ],
+  [
+   "défendre.",
+   4.96,
+   5.76
+  ],
+  [
+   "Mauvaise",
+   5.8,
+   6.16
+  ],
+  [
+   "idée.",
+   6.24,
+   6.88
+  ],
+  [
+   "[curious]",
+   6.907,
+   6.987
+  ],
+  [
+   "Ta",
+   7.013,
+   7.04
+  ],
+  [
+   "réponse",
+   7.12,
+   7.44
+  ],
+  [
+   "n'est",
+   7.48,
+   7.68
+  ],
+  [
+   "pas",
+   7.76,
+   7.84
+  ],
+  [
+   "vraiment",
+   7.867,
+   8.16
+  ],
+  [
+   "pour",
+   8.2,
+   8.24
+  ],
+  [
+   "ce",
+   8.32,
+   8.4
+  ],
+  [
+   "voyageur.",
+   8.52,
+   9.28
+  ],
+  [
+   "Elle",
+   9.32,
+   9.4
+  ],
+  [
+   "est",
+   9.44,
+   9.52
+  ],
+  [
+   "pour",
+   9.64,
+   9.76
+  ],
+  [
+   "tous",
+   9.84,
+   9.92
+  ],
+  [
+   "les",
+   10.0,
+   10.08
+  ],
+  [
+   "futurs",
+   10.16,
+   10.4
+  ],
+  [
+   "voyageurs",
+   10.48,
+   10.96
+  ],
+  [
+   "qui",
+   11.0,
+   11.04
+  ],
+  [
+   "vont",
+   11.12,
+   11.2
+  ],
+  [
+   "la",
+   11.28,
+   11.36
+  ],
+  [
+   "lire.",
+   11.44,
+   12.16
+  ],
+  [
+   "Voilà",
+   12.2,
+   12.4
+  ],
+  [
+   "la",
+   12.44,
+   12.48
+  ],
+  [
+   "méthode,",
+   12.56,
+   13.12
+  ],
+  [
+   "en",
+   13.2,
+   13.28
+  ],
+  [
+   "quatre",
+   13.36,
+   13.52
+  ],
+  [
+   "étapes.",
+   13.6,
+   14.4
+  ],
+  [
+   "Étape",
+   14.44,
+   14.72
+  ],
+  [
+   "un",
+   14.88,
+   14.96
+  ],
+  [
+   ":",
+   15.36,
+   15.44
+  ],
+  [
+   "attends",
+   15.52,
+   15.68
+  ],
+  [
+   "quelques",
+   15.76,
+   16.08
+  ],
+  [
+   "heures,",
+   16.16,
+   16.64
+  ],
+  [
+   "et",
+   16.68,
+   16.72
+  ],
+  [
+   "réponds",
+   16.8,
+   17.12
+  ],
+  [
+   "à",
+   17.2,
+   17.28
+  ],
+  [
+   "froid.",
+   17.32,
+   18.0
+  ],
+  [
+   "Étape",
+   18.08,
+   18.32
+  ],
+  [
+   "deux",
+   18.4,
+   18.72
+  ],
+  [
+   ":",
+   18.96,
+   19.013
+  ],
+  [
+   "remercie",
+   19.067,
+   19.44
+  ],
+  [
+   "le",
+   19.48,
+   19.52
+  ],
+  [
+   "voyageur",
+   19.64,
+   20.0
+  ],
+  [
+   "pour",
+   20.08,
+   20.16
+  ],
+  [
+   "son",
+   20.24,
+   20.4
+  ],
+  [
+   "séjour.",
+   20.44,
+   21.2
+  ],
+  [
+   "Étape",
+   21.28,
+   21.52
+  ],
+  [
+   "trois",
+   21.6,
+   22.0
+  ],
+  [
+   ":",
+   22.24,
+   22.28
+  ],
+  [
+   "reconnais",
+   22.32,
+   22.64
+  ],
+  [
+   "le",
+   22.72,
+   22.8
+  ],
+  [
+   "problème,",
+   22.88,
+   23.52
+  ],
+  [
+   "sans",
+   23.64,
+   23.76
+  ],
+  [
+   "te",
+   23.84,
+   23.92
+  ],
+  [
+   "justifier",
+   24.04,
+   24.48
+  ],
+  [
+   "pendant",
+   24.56,
+   24.8
+  ],
+  [
+   "dix",
+   24.88,
+   24.96
+  ],
+  [
+   "lignes.",
+   25.04,
+   25.68
+  ],
+  [
+   "Étape",
+   25.72,
+   26.0
+  ],
+  [
+   "quatre",
+   26.08,
+   26.32
+  ],
+  [
+   ":",
+   26.64,
+   26.747
+  ],
+  [
+   "explique",
+   26.853,
+   27.12
+  ],
+  [
+   "ce",
+   27.16,
+   27.2
+  ],
+  [
+   "que",
+   27.24,
+   27.28
+  ],
+  [
+   "tu",
+   27.36,
+   27.44
+  ],
+  [
+   "as",
+   27.52,
+   27.6
+  ],
+  [
+   "corrigé.",
+   27.68,
+   28.32
+  ],
+  [
+   "Par",
+   28.36,
+   28.4
+  ],
+  [
+   "exemple",
+   28.48,
+   28.88
+  ],
+  [
+   ":",
+   29.2,
+   29.227
+  ],
+  [
+   "le",
+   29.253,
+   29.28
+  ],
+  [
+   "chauffage",
+   29.36,
+   29.76
+  ],
+  [
+   "a",
+   29.84,
+   29.92
+  ],
+  [
+   "été",
+   30.0,
+   30.08
+  ],
+  [
+   "réparé.",
+   30.16,
+   30.88
+  ],
+  [
+   "Trois",
+   30.96,
+   31.12
+  ],
+  [
+   "ou",
+   31.2,
+   31.28
+  ],
+  [
+   "quatre",
+   31.333,
+   31.44
+  ],
+  [
+   "phrases,",
+   31.52,
+   32.0
+  ],
+  [
+   "c'est",
+   32.053,
+   32.16
+  ],
+  [
+   "suffisant.",
+   32.2,
+   32.96
+  ],
+  [
+   "Et",
+   33.08,
+   33.2
+  ],
+  [
+   "jamais",
+   33.28,
+   33.6
+  ],
+  [
+   "d'informations",
+   33.64,
+   34.24
+  ],
+  [
+   "personnelles",
+   34.32,
+   34.8
+  ],
+  [
+   "sur",
+   34.84,
+   34.88
+  ],
+  [
+   "le",
+   34.96,
+   35.0
+  ],
+  [
+   "voyageur.",
+   35.04,
+   35.76
+  ],
+  [
+   "[excited]",
+   35.92,
+   35.984
+  ],
+  [
+   "Une",
+   36.0,
+   36.08
+  ],
+  [
+   "réponse",
+   36.16,
+   36.48
+  ],
+  [
+   "calme",
+   36.64,
+   36.96
+  ],
+  [
+   "et",
+   37.04,
+   37.2
+  ],
+  [
+   "pro",
+   37.32,
+   37.44
+  ],
+  [
+   "rassure",
+   37.68,
+   38.16
+  ],
+  [
+   "les",
+   38.24,
+   38.32
+  ],
+  [
+   "prochains",
+   38.4,
+   38.64
+  ],
+  [
+   "voyageurs.",
+   38.76,
+   39.6
+  ],
+  [
+   "Abonne-toi",
+   39.68,
+   40.08
+  ],
+  [
+   ":",
+   40.4,
+   40.42
+  ],
+  [
+   "dans",
+   40.44,
+   40.48
+  ],
+  [
+   "le",
+   40.56,
+   40.64
+  ],
+  [
+   "prochain",
+   40.72,
+   40.96
+  ],
+  [
+   "épisode,",
+   41.0,
+   41.68
+  ],
+  [
+   "les",
+   41.76,
+   41.84
+  ],
+  [
+   "équipements",
+   41.92,
+   42.32
+  ],
+  [
+   "que",
+   42.4,
+   42.48
+  ],
+  [
+   "les",
+   42.52,
+   42.56
+  ],
+  [
+   "voyageurs",
+   42.64,
+   43.12
+  ],
+  [
+   "filtrent.",
+   43.2,
+   43.92
+  ]
+ ]
+}

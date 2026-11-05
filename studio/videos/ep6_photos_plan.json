@@ -1,0 +1,249 @@
+{
+ "engine": "engine2.html",
+ "series": "LOCATION COURTE DURÉE",
+ "duration": "auto",
+ "ep": 6,
+ "name": "ep6_photos",
+ "chapters": [
+  "@règle#2",
+  "@règle#3",
+  "@règle#4"
+ ],
+ "emph": [
+  "secondes",
+  "couverture",
+  "trois",
+  "lumière",
+  "journée",
+  "ouverts",
+  "lampes",
+  "cadrage",
+  "l'horizontale",
+  "poitrine",
+  "coin",
+  "agrandit",
+  "l'ordre",
+  "belle",
+  "salon",
+  "cuisine",
+  "chambres",
+  "range",
+  "câbles",
+  "personnels",
+  "refais"
+ ],
+ "coral": [
+  "couverture"
+ ],
+ "beats": [
+  {
+   "type": "icon",
+   "at": 0,
+   "icon": "search",
+   "label": "Quelques secondes",
+   "onAt": "@secondes",
+   "chips": [
+    {
+     "at": "@décident",
+     "text": "Le voyageur décide",
+     "x": 330,
+     "y": 760,
+     "kind": "dark"
+    }
+   ]
+  },
+  {
+   "type": "icon",
+   "at": "@première",
+   "icon": "camera",
+   "label": "Photo de couverture",
+   "onAt": "@couverture",
+   "chips": [
+    {
+     "at": "@couverture+0.3",
+     "text": "Vue en premier",
+     "x": 390,
+     "y": 760,
+     "kind": "coral",
+     "icon": "check"
+    }
+   ]
+  },
+  {
+   "type": "grid",
+   "at": "@voilà",
+   "items": [
+    {
+     "icon": "bolt",
+     "label": "Lumière",
+     "at": "@trois"
+    },
+    {
+     "icon": "camera",
+     "label": "Cadrage",
+     "at": "@trois+0.25"
+    },
+    {
+     "icon": "house",
+     "label": "Ordre",
+     "at": "@trois+0.5"
+    }
+   ],
+   "chips": [
+    {
+     "at": "@cliquer",
+     "text": "Envie de cliquer",
+     "x": 370,
+     "y": 880,
+     "kind": "coral"
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "at": "@règle#2",
+   "num": "01",
+   "label": "La lumière"
+  },
+  {
+   "type": "grid",
+   "at": "@prends",
+   "items": [
+    {
+     "icon": "clock",
+     "label": "En journée",
+     "at": "@journée"
+    },
+    {
+     "icon": "house",
+     "label": "Volets ouverts",
+     "at": "@volets"
+    },
+    {
+     "icon": "bolt",
+     "label": "Lampes allumées",
+     "at": "@lampes",
+     "onAt": "@allumées"
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "at": "@règle#3",
+   "num": "02",
+   "label": "Le cadrage"
+  },
+  {
+   "type": "icon",
+   "at": "@photographie",
+   "icon": "camera",
+   "label": "À l'horizontale",
+   "onAt": "@l'horizontale",
+   "chips": [
+    {
+     "at": "@hauteur",
+     "text": "Hauteur de poitrine",
+     "x": 320,
+     "y": 675,
+     "kind": "dark"
+    },
+    {
+     "at": "@coin",
+     "text": "Depuis un coin",
+     "x": 400,
+     "y": 755,
+     "kind": "coral"
+    },
+    {
+     "at": "@agrandit",
+     "text": "Espace agrandi",
+     "x": 370,
+     "y": 835,
+     "kind": "dark",
+     "icon": "check"
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "at": "@règle#4",
+   "num": "03",
+   "label": "L'ordre"
+  },
+  {
+   "type": "list",
+   "at": "@ta",
+   "title": "Le parcours",
+   "items": [
+    {
+     "at": "@belle",
+     "text": "Plus belle photo en couverture",
+     "mark": "ok",
+     "markAt": "@couverture/e"
+    },
+    {
+     "at": "@salon",
+     "text": "Salon → cuisine",
+     "mark": "ok",
+     "markAt": "@cuisine/e"
+    },
+    {
+     "at": "@chambres",
+     "text": "Chambres → salle de bain",
+     "mark": "ok",
+     "markAt": "@bain/e"
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "at": "@avant",
+   "title": "Avant chaque photo",
+   "items": [
+    {
+     "at": "@range",
+     "text": "Tout ranger",
+     "mark": "ok",
+     "markAt": "@tout/e"
+    },
+    {
+     "at": "@câbles",
+     "text": "Câbles",
+     "mark": "no",
+     "markAt": "@câbles/e"
+    },
+    {
+     "at": "@d'objets",
+     "text": "Objets personnels",
+     "mark": "no",
+     "markAt": "@personnels/e"
+    }
+   ]
+  },
+  {
+   "type": "icon",
+   "at": "@refais",
+   "icon": "camera",
+   "label": "Nouvelle couverture",
+   "onAt": "@couverture",
+   "chips": [
+    {
+     "at": "@semaine",
+     "text": "Cette semaine",
+     "x": 400,
+     "y": 760,
+     "kind": "coral",
+     "icon": "check"
+    }
+   ]
+  },
+  {
+   "type": "subscribe",
+   "at": "@abonne",
+   "clickAt": "@abonne+0.7",
+   "next": "Répondre à un avis négatif",
+   "nextAt": "@prochain",
+   "nextIcon": "chat"
+  }
+ ]
+}

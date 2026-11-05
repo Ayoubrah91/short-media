@@ -1,0 +1,172 @@
+{
+ "ep": 4,
+ "chapters": [
+  "@faisons",
+  "@bon"
+ ],
+ "emph": [
+  "vraiment",
+  "vrai",
+  "poche",
+  "calcul",
+  "2",
+  "000",
+  "commission",
+  "ménage",
+  "linge",
+  "l'électricité",
+  "internet",
+  "crédit",
+  "loyer",
+  "impôts",
+  "moitié",
+  "moins"
+ ],
+ "coral": [
+  "vrai",
+  "moitié"
+ ],
+ "beats": [
+  {
+   "type": "icon",
+   "at": 0,
+   "icon": "euro",
+   "label": "Combien ça rapporte ?",
+   "coins": 0.4
+  },
+  {
+   "type": "compare",
+   "at": "@pas",
+   "cols": [
+    {
+     "k": "Tableau de bord",
+     "big": "2 000 €",
+     "s": "revenus",
+     "at": "@pas"
+    },
+    {
+     "k": "Le vrai",
+     "big": "?",
+     "s": "dans ta poche",
+     "tone": "bad",
+     "at": "@vrai"
+    }
+   ]
+  },
+  {
+   "type": "apt",
+   "at": "@parce",
+   "caption": "Ce que paie le voyageur…",
+   "chips": [
+    {
+     "at": "@poche",
+     "text": "…et ce qui reste dans ta poche",
+     "x": 130,
+     "y": 820,
+     "kind": "coral",
+     "icon": "euro"
+    },
+    {
+     "at": "@d'étapes",
+     "text": "Beaucoup d'étapes",
+     "x": 330,
+     "y": 920,
+     "kind": "dark"
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "at": "@faisons",
+   "num": "01",
+   "label": "Le calcul"
+  },
+  {
+   "type": "waterfall",
+   "at": "@prenons",
+   "startLabel": "2 000 €",
+   "steps": [
+    {
+     "label": "Commission",
+     "cut": 15,
+     "at": "@commission"
+    },
+    {
+     "label": "Ménage, linge",
+     "cut": 16,
+     "at": "@ménage"
+    },
+    {
+     "label": "Énergie, internet",
+     "cut": 10,
+     "at": "@l'électricité"
+    },
+    {
+     "label": "Crédit ou loyer",
+     "cut": 15,
+     "at": "@crédit"
+    },
+    {
+     "label": "Impôts",
+     "cut": 8,
+     "at": "@impôts"
+    }
+   ],
+   "endLabel": "Ce qui reste",
+   "endValue": "< 50 %",
+   "endAt": "@moitié",
+   "chips": [
+    {
+     "at": "@prenons",
+     "text": "Exemple",
+     "x": 800,
+     "y": -10,
+     "kind": "dark"
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "at": "@bon",
+   "num": "02",
+   "label": "Le bon réflexe"
+  },
+  {
+   "type": "list",
+   "at": "@fais",
+   "title": "Ton vrai calcul",
+   "items": [
+    {
+     "at": "@calcul#2",
+     "text": "Tes revenus",
+     "mark": "ok",
+     "markAt": "@calcul#2/e"
+    },
+    {
+     "at": "@logement",
+     "text": "− toutes tes charges",
+     "mark": "ok",
+     "markAt": "@logement/e"
+    },
+    {
+     "at": "@dire",
+     "text": "= ce qui reste vraiment",
+     "mark": "ok",
+     "markAt": "@marche"
+    }
+   ]
+  },
+  {
+   "type": "subscribe",
+   "at": "@abonne",
+   "clickAt": "@abonne+0.7",
+   "next": "L'arrivée autonome qui fait gagner des étoiles",
+   "nextAt": "@prochain",
+   "nextIcon": "cal"
+  }
+ ],
+ "name": "ep4_revenus",
+ "engine": "engine2.html",
+ "series": "LOCATION COURTE DURÉE",
+ "duration": "auto"
+}

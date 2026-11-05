@@ -1,0 +1,234 @@
+{
+ "ep": 1,
+ "chapters": [
+  "@premier",
+  "@deuxième",
+  "@troisième",
+  "@quatrième"
+ ],
+ "emph": [
+  "superhost",
+  "quatre",
+  "critères",
+  "note",
+  "4,8",
+  "réactivité",
+  "90",
+  "annulations",
+  "1",
+  "expérience",
+  "10",
+  "100",
+  "badge",
+  "jamais"
+ ],
+ "coral": [
+  "superhost"
+ ],
+ "beats": [
+  {
+   "type": "icon",
+   "at": 0,
+   "icon": "badge",
+   "label": "Superhost",
+   "chips": [
+    {
+     "at": "@toi",
+     "text": "Et toi ?",
+     "x": 640,
+     "y": 620,
+     "kind": "coral"
+    }
+   ]
+  },
+  {
+   "type": "grid",
+   "at": "@ce",
+   "items": [
+    {
+     "icon": "clock",
+     "label": "Ancienneté",
+     "at": "@d'ancienneté",
+     "offAt": "@chance"
+    },
+    {
+     "icon": "star",
+     "label": "Chance",
+     "at": "@chance",
+     "offAt": "@chance+0.5"
+    }
+   ],
+   "chips": [
+    {
+     "at": "@chance+0.5",
+     "text": "Ça ne compte pas",
+     "x": 360,
+     "y": 660,
+     "kind": "dark",
+     "icon": "x"
+    }
+   ]
+  },
+  {
+   "type": "icon",
+   "at": "@airbnb",
+   "icon": "cal",
+   "label": "12 derniers mois",
+   "chips": [
+    {
+     "at": "@point",
+     "text": "Bilan tous les 3 mois",
+     "x": 300,
+     "y": 760,
+     "kind": "coral",
+     "icon": "clock"
+    },
+    {
+     "at": "@rates",
+     "text": "1 critère raté = pas de badge",
+     "x": 190,
+     "y": 860,
+     "kind": "dark",
+     "icon": "x"
+    }
+   ]
+  },
+  {
+   "type": "grid",
+   "at": "@voilà",
+   "items": [
+    {
+     "icon": "star",
+     "label": "Note",
+     "at": "@voilà"
+    },
+    {
+     "icon": "chat",
+     "label": "Réactivité",
+     "at": "@voilà+0.2"
+    },
+    {
+     "icon": "ban",
+     "label": "Annulations",
+     "at": "@voilà+0.4"
+    },
+    {
+     "icon": "cal",
+     "label": "Expérience",
+     "at": "@voilà+0.6"
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "at": "@premier",
+   "num": "01",
+   "label": "La note"
+  },
+  {
+   "type": "stars",
+   "at": "@faut",
+   "label": "Note globale",
+   "to": 4.8,
+   "fillAt": "@globale",
+   "chips": [
+    {
+     "at": "@globale+0.8",
+     "text": "Minimum 4,8",
+     "x": 380,
+     "y": 800,
+     "kind": "coral",
+     "icon": "check"
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "at": "@deuxième",
+   "num": "02",
+   "label": "La réactivité"
+  },
+  {
+   "type": "gauge",
+   "at": "@moins",
+   "to": 90,
+   "suffix": "%",
+   "label": "Réponses en moins de 24 h",
+   "countAt": "@moins+0.2"
+  },
+  {
+   "type": "chapter",
+   "at": "@troisième",
+   "num": "03",
+   "label": "Les annulations"
+  },
+  {
+   "type": "icon",
+   "at": "@moins",
+   "icon": "ban",
+   "label": "Moins de 1 %",
+   "chips": [
+    {
+     "at": "@presque",
+     "text": "Presque jamais",
+     "x": 360,
+     "y": 780,
+     "kind": "coral"
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "at": "@quatrième",
+   "num": "04",
+   "label": "L'expérience"
+  },
+  {
+   "type": "compare",
+   "at": "@moins",
+   "cols": [
+    {
+     "k": "Séjours",
+     "big": "10",
+     "s": "minimum",
+     "at": "@séjours",
+     "tone": "good"
+    },
+    {
+     "k": "ou réservations",
+     "big": "3",
+     "s": "= 100 nuits",
+     "at": "@réservations",
+     "tone": "good"
+    }
+   ]
+  },
+  {
+   "type": "medal",
+   "at": "@coche",
+   "label": "Superhost",
+   "chips": [
+    {
+     "at": "@vérifie",
+     "text": "Tableau de bord hôte",
+     "x": 300,
+     "y": 1000,
+     "kind": "dark",
+     "icon": "house"
+    }
+   ]
+  },
+  {
+   "type": "subscribe",
+   "at": "@abonne",
+   "clickAt": "@abonne+0.7",
+   "next": "L'autre badge que les voyageurs repèrent",
+   "nextAt": "@prochain",
+   "nextIcon": "cal"
+  }
+ ],
+ "name": "ep1_superhost",
+ "engine": "engine2.html",
+ "series": "LOCATION COURTE DURÉE",
+ "duration": "auto"
+}

@@ -1,0 +1,876 @@
+{
+ "engine": "engine2.html",
+ "series": "LOCATION COURTE DURÉE",
+ "duration": 44.42,
+ "ep": 6,
+ "name": "ep6_photos",
+ "chapters": [
+  10.12,
+  16.12,
+  24.12
+ ],
+ "emph": [
+  "secondes",
+  "couverture",
+  "trois",
+  "lumière",
+  "journée",
+  "ouverts",
+  "lampes",
+  "cadrage",
+  "l'horizontale",
+  "poitrine",
+  "coin",
+  "agrandit",
+  "l'ordre",
+  "belle",
+  "salon",
+  "cuisine",
+  "chambres",
+  "range",
+  "câbles",
+  "personnels",
+  "refais"
+ ],
+ "coral": [
+  "couverture"
+ ],
+ "beats": [
+  {
+   "type": "icon",
+   "at": 0,
+   "icon": "search",
+   "label": "Quelques secondes",
+   "onAt": 2.92,
+   "chips": [
+    {
+     "at": 1.84,
+     "text": "Le voyageur décide",
+     "x": 330,
+     "y": 760,
+     "kind": "dark"
+    }
+   ]
+  },
+  {
+   "type": "icon",
+   "at": 3.76,
+   "icon": "camera",
+   "label": "Photo de couverture",
+   "onAt": 5.68,
+   "chips": [
+    {
+     "at": 5.98,
+     "text": "Vue en premier",
+     "x": 390,
+     "y": 760,
+     "kind": "coral",
+     "icon": "check"
+    }
+   ]
+  },
+  {
+   "type": "grid",
+   "at": 6.704,
+   "items": [
+    {
+     "icon": "bolt",
+     "label": "Lumière",
+     "at": 7.04
+    },
+    {
+     "icon": "camera",
+     "label": "Cadrage",
+     "at": 7.29
+    },
+    {
+     "icon": "house",
+     "label": "Ordre",
+     "at": 7.54
+    }
+   ],
+   "chips": [
+    {
+     "at": 9.32,
+     "text": "Envie de cliquer",
+     "x": 370,
+     "y": 880,
+     "kind": "coral"
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "at": 10.12,
+   "num": "01",
+   "label": "La lumière"
+  },
+  {
+   "type": "grid",
+   "at": 12.12,
+   "items": [
+    {
+     "icon": "clock",
+     "label": "En journée",
+     "at": 12.96
+    },
+    {
+     "icon": "house",
+     "label": "Volets ouverts",
+     "at": 13.6
+    },
+    {
+     "icon": "bolt",
+     "label": "Lampes allumées",
+     "at": 15.16,
+     "onAt": 15.387
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "at": 16.12,
+   "num": "02",
+   "label": "Le cadrage"
+  },
+  {
+   "type": "icon",
+   "at": 18.16,
+   "icon": "camera",
+   "label": "À l'horizontale",
+   "onAt": 18.8,
+   "chips": [
+    {
+     "at": 19.76,
+     "text": "Hauteur de poitrine",
+     "x": 320,
+     "y": 675,
+     "kind": "dark"
+    },
+    {
+     "at": 21.44,
+     "text": "Depuis un coin",
+     "x": 400,
+     "y": 755,
+     "kind": "coral"
+    },
+    {
+     "at": 22.64,
+     "text": "Espace agrandi",
+     "x": 370,
+     "y": 835,
+     "kind": "dark",
+     "icon": "check"
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "at": 24.12,
+   "num": "03",
+   "label": "L'ordre"
+  },
+  {
+   "type": "list",
+   "at": 26.0,
+   "title": "Le parcours",
+   "items": [
+    {
+     "at": 26.373,
+     "text": "Plus belle photo en couverture",
+     "mark": "ok",
+     "markAt": 27.76
+    },
+    {
+     "at": 29.92,
+     "text": "Salon → cuisine",
+     "mark": "ok",
+     "markAt": 31.12
+    },
+    {
+     "at": 31.16,
+     "text": "Chambres → salle de bain",
+     "mark": "ok",
+     "markAt": 32.48
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "at": 32.64,
+   "title": "Avant chaque photo",
+   "items": [
+    {
+     "at": 34.107,
+     "text": "Tout ranger",
+     "mark": "ok",
+     "markAt": 34.72
+    },
+    {
+     "at": 35.0,
+     "text": "Câbles",
+     "mark": "no",
+     "markAt": 35.52
+    },
+    {
+     "at": 35.68,
+     "text": "Objets personnels",
+     "mark": "no",
+     "markAt": 36.8
+    }
+   ]
+  },
+  {
+   "type": "icon",
+   "at": 36.88,
+   "icon": "camera",
+   "label": "Nouvelle couverture",
+   "onAt": 37.64,
+   "chips": [
+    {
+     "at": 38.4,
+     "text": "Cette semaine",
+     "x": 400,
+     "y": 760,
+     "kind": "coral",
+     "icon": "check"
+    }
+   ]
+  },
+  {
+   "type": "subscribe",
+   "at": 39.04,
+   "clickAt": 39.74,
+   "next": "Répondre à un avis négatif",
+   "nextAt": 40.08,
+   "nextIcon": "chat"
+  }
+ ],
+ "words": [
+  [
+   "[curious]",
+   0.0,
+   0.064
+  ],
+  [
+   "Sur",
+   0.08,
+   0.24
+  ],
+  [
+   "Airbnb,",
+   0.36,
+   1.12
+  ],
+  [
+   "les",
+   1.2,
+   1.28
+  ],
+  [
+   "voyageurs",
+   1.4,
+   1.76
+  ],
+  [
+   "décident",
+   1.84,
+   2.16
+  ],
+  [
+   "en",
+   2.28,
+   2.4
+  ],
+  [
+   "quelques",
+   2.48,
+   2.72
+  ],
+  [
+   "secondes.",
+   2.92,
+   3.44
+  ],
+  [
+   "Et",
+   3.48,
+   3.52
+  ],
+  [
+   "la",
+   3.6,
+   3.68
+  ],
+  [
+   "première",
+   3.76,
+   4.0
+  ],
+  [
+   "chose",
+   4.08,
+   4.24
+  ],
+  [
+   "qu'ils",
+   4.28,
+   4.48
+  ],
+  [
+   "voient,",
+   4.52,
+   4.96
+  ],
+  [
+   "c'est",
+   5.013,
+   5.12
+  ],
+  [
+   "ta",
+   5.2,
+   5.28
+  ],
+  [
+   "photo",
+   5.4,
+   5.52
+  ],
+  [
+   "de",
+   5.56,
+   5.6
+  ],
+  [
+   "couverture.",
+   5.68,
+   6.24
+  ],
+  [
+   "[serious]",
+   6.64,
+   6.688
+  ],
+  [
+   "Voilà",
+   6.704,
+   6.96
+  ],
+  [
+   "trois",
+   7.04,
+   7.2
+  ],
+  [
+   "règles",
+   7.28,
+   7.68
+  ],
+  [
+   "pour",
+   7.76,
+   7.84
+  ],
+  [
+   "des",
+   7.92,
+   8.0
+  ],
+  [
+   "photos",
+   8.16,
+   8.32
+  ],
+  [
+   "qui",
+   8.4,
+   8.48
+  ],
+  [
+   "donnent",
+   8.52,
+   8.8
+  ],
+  [
+   "envie",
+   8.92,
+   9.12
+  ],
+  [
+   "de",
+   9.2,
+   9.28
+  ],
+  [
+   "cliquer.",
+   9.32,
+   10.08
+  ],
+  [
+   "Règle",
+   10.12,
+   10.4
+  ],
+  [
+   "un",
+   10.56,
+   10.64
+  ],
+  [
+   ":",
+   11.04,
+   11.067
+  ],
+  [
+   "la",
+   11.093,
+   11.12
+  ],
+  [
+   "lumière.",
+   11.2,
+   12.08
+  ],
+  [
+   "Prends",
+   12.12,
+   12.24
+  ],
+  [
+   "tes",
+   12.32,
+   12.4
+  ],
+  [
+   "photos",
+   12.48,
+   12.72
+  ],
+  [
+   "en",
+   12.8,
+   12.88
+  ],
+  [
+   "journée,",
+   12.96,
+   13.52
+  ],
+  [
+   "volets",
+   13.6,
+   13.84
+  ],
+  [
+   "ouverts,",
+   13.92,
+   14.48
+  ],
+  [
+   "et",
+   14.6,
+   14.72
+  ],
+  [
+   "toutes",
+   14.8,
+   14.96
+  ],
+  [
+   "les",
+   15.0,
+   15.04
+  ],
+  [
+   "lampes",
+   15.16,
+   15.333
+  ],
+  [
+   "allumées.",
+   15.387,
+   16.08
+  ],
+  [
+   "Règle",
+   16.12,
+   16.4
+  ],
+  [
+   "deux",
+   16.56,
+   16.84
+  ],
+  [
+   ":",
+   17.04,
+   17.067
+  ],
+  [
+   "le",
+   17.093,
+   17.12
+  ],
+  [
+   "cadrage.",
+   17.2,
+   18.08
+  ],
+  [
+   "Photographie",
+   18.16,
+   18.64
+  ],
+  [
+   "à",
+   18.72,
+   18.76
+  ],
+  [
+   "l'horizontale,",
+   18.8,
+   19.68
+  ],
+  [
+   "à",
+   19.707,
+   19.733
+  ],
+  [
+   "hauteur",
+   19.76,
+   20.08
+  ],
+  [
+   "de",
+   20.12,
+   20.16
+  ],
+  [
+   "poitrine,",
+   20.24,
+   20.88
+  ],
+  [
+   "depuis",
+   20.96,
+   21.2
+  ],
+  [
+   "un",
+   21.28,
+   21.36
+  ],
+  [
+   "coin",
+   21.44,
+   21.6
+  ],
+  [
+   "de",
+   21.64,
+   21.68
+  ],
+  [
+   "la",
+   21.72,
+   21.76
+  ],
+  [
+   "pièce.",
+   21.84,
+   22.4
+  ],
+  [
+   "Ça",
+   22.44,
+   22.56
+  ],
+  [
+   "agrandit",
+   22.64,
+   23.12
+  ],
+  [
+   "l'espace.",
+   23.2,
+   24.08
+  ],
+  [
+   "Règle",
+   24.12,
+   24.4
+  ],
+  [
+   "trois",
+   24.48,
+   24.72
+  ],
+  [
+   ":",
+   25.12,
+   25.147
+  ],
+  [
+   "l'ordre.",
+   25.173,
+   25.92
+  ],
+  [
+   "Ta",
+   26.0,
+   26.08
+  ],
+  [
+   "plus",
+   26.16,
+   26.32
+  ],
+  [
+   "belle",
+   26.373,
+   26.48
+  ],
+  [
+   "photo",
+   26.56,
+   26.8
+  ],
+  [
+   "en",
+   26.88,
+   26.96
+  ],
+  [
+   "couverture,",
+   27.0,
+   27.76
+  ],
+  [
+   "puis",
+   27.84,
+   28.16
+  ],
+  [
+   "le",
+   28.24,
+   28.32
+  ],
+  [
+   "parcours",
+   28.4,
+   28.72
+  ],
+  [
+   "du",
+   28.8,
+   28.88
+  ],
+  [
+   "voyageur",
+   28.96,
+   29.44
+  ],
+  [
+   ":",
+   29.76,
+   29.84
+  ],
+  [
+   "salon,",
+   29.92,
+   30.4
+  ],
+  [
+   "cuisine,",
+   30.44,
+   31.12
+  ],
+  [
+   "chambres,",
+   31.16,
+   31.68
+  ],
+  [
+   "salle",
+   31.72,
+   31.84
+  ],
+  [
+   "de",
+   31.92,
+   32.0
+  ],
+  [
+   "bain.",
+   32.04,
+   32.48
+  ],
+  [
+   "Et",
+   32.52,
+   32.56
+  ],
+  [
+   "avant",
+   32.64,
+   32.88
+  ],
+  [
+   "chaque",
+   32.92,
+   33.12
+  ],
+  [
+   "photo",
+   33.28,
+   33.44
+  ],
+  [
+   ":",
+   33.84,
+   33.973
+  ],
+  [
+   "range",
+   34.107,
+   34.24
+  ],
+  [
+   "tout.",
+   34.36,
+   34.72
+  ],
+  [
+   "Pas",
+   34.76,
+   34.8
+  ],
+  [
+   "de",
+   34.88,
+   34.96
+  ],
+  [
+   "câbles,",
+   35.0,
+   35.52
+  ],
+  [
+   "pas",
+   35.56,
+   35.6
+  ],
+  [
+   "d'objets",
+   35.68,
+   35.92
+  ],
+  [
+   "personnels.",
+   36.0,
+   36.8
+  ],
+  [
+   "[excited]",
+   36.813,
+   36.867
+  ],
+  [
+   "Refais",
+   36.88,
+   37.12
+  ],
+  [
+   "ta",
+   37.2,
+   37.28
+  ],
+  [
+   "photo",
+   37.4,
+   37.52
+  ],
+  [
+   "de",
+   37.56,
+   37.6
+  ],
+  [
+   "couverture",
+   37.64,
+   38.08
+  ],
+  [
+   "cette",
+   38.12,
+   38.32
+  ],
+  [
+   "semaine.",
+   38.4,
+   38.96
+  ],
+  [
+   "Abonne-toi",
+   39.04,
+   39.52
+  ],
+  [
+   ":",
+   39.76,
+   39.787
+  ],
+  [
+   "dans",
+   39.813,
+   39.88
+  ],
+  [
+   "le",
+   39.92,
+   40.0
+  ],
+  [
+   "prochain",
+   40.08,
+   40.32
+  ],
+  [
+   "épisode,",
+   40.36,
+   41.04
+  ],
+  [
+   "comment",
+   41.2,
+   41.36
+  ],
+  [
+   "répondre",
+   41.44,
+   41.76
+  ],
+  [
+   "à",
+   41.84,
+   41.88
+  ],
+  [
+   "un",
+   41.92,
+   42.0
+  ],
+  [
+   "avis",
+   42.08,
+   42.24
+  ],
+  [
+   "négatif.",
+   42.32,
+   43.12
+  ]
+ ]
+}

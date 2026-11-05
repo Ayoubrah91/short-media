@@ -1,0 +1,238 @@
+{
+ "name": "f7_livret",
+ "dir": "ltr",
+ "duration": "auto",
+ "handle": "",
+ "scenes": [
+  {
+   "start": 0,
+   "end": "@voyageurs-0.3",
+   "title": {
+    "bold": "Le livret",
+    "accent": "d'accueil"
+   },
+   "prop": "doc",
+   "items": [
+    {
+     "type": "list",
+     "at": "@gagner",
+     "label": "CE QU'IL TE FAIT GAGNER",
+     "items": [
+      {
+       "at": "@heures",
+       "text": "Des heures de messages",
+       "mark": "ok",
+       "markAt": "@messages/e"
+      },
+      {
+       "at": "@avis",
+       "text": "Des avis 5 étoiles",
+       "mark": "ok",
+       "markAt": "@étoiles/e"
+      }
+     ],
+     "minRows": 2
+    },
+    {
+     "type": "title",
+     "at": "@livret",
+     "label": "DIGITAL",
+     "text": "Livret d'accueil"
+    }
+   ]
+  },
+  {
+   "start": "@voyageurs-0.25",
+   "end": "@voilà-0.12",
+   "title": {
+    "bold": "Les mêmes",
+    "accent": "questions"
+   },
+   "prop": "search",
+   "items": [
+    {
+     "type": "list",
+     "at": "@questions",
+     "label": "ILS TE DEMANDENT",
+     "items": [
+      {
+       "at": "@wifi",
+       "text": "Le wifi",
+       "mark": null,
+       "markAt": null
+      },
+      {
+       "at": "@wifi/e+0.1",
+       "text": "L'arrivée",
+       "mark": null,
+       "markAt": null
+      },
+      {
+       "at": "@chauffage",
+       "text": "Le chauffage",
+       "mark": null,
+       "markAt": null
+      },
+      {
+       "at": "@parking",
+       "text": "Le parking",
+       "mark": null,
+       "markAt": null
+      }
+     ],
+     "minRows": 4
+    },
+    {
+     "type": "note",
+     "at": "@reste",
+     "text": "quoi mettre dedans"
+    }
+   ]
+  },
+  {
+   "start": "@voilà-0.05",
+   "end": "@étape#2-0.12",
+   "title": {
+    "accent": "3 étapes"
+   },
+   "prop": "search"
+  },
+  {
+   "start": "@étape#2-0.05",
+   "end": "@étape#3-0.12",
+   "title": {
+    "num": 1,
+    "bold": "Arrivée",
+    "accent": "facile"
+   },
+   "prop": "doc",
+   "items": [
+    {
+     "type": "list",
+     "at": "@codes",
+     "label": "À METTRE",
+     "items": [
+      {
+       "at": "@codes",
+       "text": "Les codes",
+       "mark": "ok",
+       "markAt": "@codes/e"
+      },
+      {
+       "at": "@photos",
+       "text": "Photos de l'entrée",
+       "mark": "ok",
+       "markAt": "@photos/e+0.5"
+      },
+      {
+       "at": "@wifi#2",
+       "text": "Le wifi",
+       "mark": "ok",
+       "markAt": "@wifi#2/e"
+      }
+     ],
+     "minRows": 3
+    }
+   ]
+  },
+  {
+   "start": "@étape#3-0.05",
+   "end": "@étape#4-0.12",
+   "title": {
+    "num": 2,
+    "bold": "Mode",
+    "accent": "d'emploi"
+   },
+   "prop": "pencil",
+   "items": [
+    {
+     "type": "title",
+     "at": "@mode",
+     "label": "APPAREIL PAR APPAREIL",
+     "text": "Le mode d'emploi du logement",
+     "dark": true
+    }
+   ]
+  },
+  {
+   "start": "@étape#4-0.05",
+   "end": "@envoie-0.5",
+   "title": {
+    "num": 3,
+    "bold": "Bonnes",
+    "accent": "adresses"
+   },
+   "prop": "star",
+   "items": [
+    {
+     "type": "list",
+     "at": "@adresses",
+     "label": "AUTOUR DU LOGEMENT",
+     "items": [
+      {
+       "at": "@restaurants",
+       "text": "Restaurants",
+       "mark": "ok",
+       "markAt": "@restaurants/e"
+      },
+      {
+       "at": "@boulangerie",
+       "text": "Boulangerie",
+       "mark": "ok",
+       "markAt": "@boulangerie/e"
+      },
+      {
+       "at": "@transports",
+       "text": "Transports",
+       "mark": "ok",
+       "markAt": "@transports/e"
+      }
+     ],
+     "minRows": 3
+    }
+   ]
+  },
+  {
+   "start": "@envoie-0.45",
+   "end": "@commente-0.12",
+   "title": {
+    "bold": "Le bon",
+    "accent": "timing"
+   },
+   "prop": "check",
+   "items": [
+    {
+     "type": "title",
+     "at": "@juste",
+     "label": "ENVOIE-LE",
+     "text": "Juste après la réservation"
+    },
+    {
+     "type": "strike",
+     "at": "@jour",
+     "label": "PAS",
+     "text": "Le jour de l'arrivée",
+     "strikeAt": "@jour/e+0.4"
+    }
+   ],
+   "happy": [
+    [
+     "@juste",
+     "@commente"
+    ]
+   ]
+  },
+  {
+   "start": "@commente-0.05",
+   "end": 999,
+   "cta": {
+    "at": "@commente",
+    "word": "Commente",
+    "key": "LIVRET",
+    "crewAt": "@livret",
+    "note": "et je t'envoie mon modèle",
+    "noteAt": "@t'envoie"
+   }
+  }
+ ]
+}

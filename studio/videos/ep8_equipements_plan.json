@@ -1,0 +1,229 @@
+{
+ "engine": "engine2.html",
+ "series": "LOCATION COURTE DURÉE",
+ "duration": "auto",
+ "ep": 8,
+ "name": "ep8_equipements",
+ "chapters": [
+  "@d'abord",
+  "@ensuite",
+  "@va"
+ ],
+ "emph": [
+  "wifi",
+  "lave-linge",
+  "parking",
+  "coché",
+  "filtres",
+  "n'apparaît",
+  "vraiment",
+  "priorité",
+  "essentiels",
+  "cuisine",
+  "climatisation",
+  "chauffage",
+  "différence",
+  "gratuit",
+  "travail",
+  "autonome",
+  "rubrique",
+  "coche",
+  "photo",
+  "cases",
+  "apparais"
+ ],
+ "coral": [
+  "coché",
+  "n'apparaît"
+ ],
+ "beats": [
+  {
+   "type": "grid",
+   "at": 0,
+   "items": [
+    {
+     "icon": "wifi",
+     "label": "Wifi",
+     "at": "@wifi"
+    },
+    {
+     "icon": "washer",
+     "label": "Lave-linge",
+     "at": "@lave-linge"
+    },
+    {
+     "icon": "car",
+     "label": "Parking",
+     "at": "@parking"
+    }
+   ],
+   "chips": [
+    {
+     "at": "@coché",
+     "text": "Coché dans l'annonce ?",
+     "x": 290,
+     "y": 880,
+     "kind": "coral"
+    }
+   ]
+  },
+  {
+   "type": "icon",
+   "at": "@sur",
+   "icon": "search",
+   "label": "Filtres voyageurs",
+   "onAt": "@filtres",
+   "chips": [
+    {
+     "at": "@cochent",
+     "text": "Lave-linge",
+     "x": 420,
+     "y": 760,
+     "kind": "dark",
+     "icon": "check"
+    }
+   ]
+  },
+  {
+   "type": "grid",
+   "at": "@ton",
+   "items": [
+    {
+     "icon": "house",
+     "label": "Ton logement",
+     "at": "@ton",
+     "offAt": "@n'apparaît"
+    }
+   ],
+   "chips": [
+    {
+     "at": "@n'apparaît",
+     "text": "Absent des résultats",
+     "x": 320,
+     "y": 760,
+     "kind": "coral",
+     "icon": "x"
+    },
+    {
+     "at": "@même",
+     "text": "Même si tu l'as",
+     "x": 360,
+     "y": 860,
+     "kind": "dark"
+    }
+   ]
+  },
+  {
+   "type": "icon",
+   "at": "@voilà",
+   "icon": "check",
+   "label": "À vérifier en priorité",
+   "onAt": "@priorité"
+  },
+  {
+   "type": "chapter",
+   "at": "@d'abord",
+   "num": "01",
+   "label": "Les essentiels"
+  },
+  {
+   "type": "grid",
+   "at": "@essentiels",
+   "items": [
+    {
+     "icon": "wifi",
+     "label": "Wifi",
+     "at": "@wifi"
+    },
+    {
+     "icon": "pot",
+     "label": "Cuisine",
+     "at": "@cuisine"
+    },
+    {
+     "icon": "washer",
+     "label": "Lave-linge",
+     "at": "@lave-linge"
+    },
+    {
+     "icon": "snow",
+     "label": "Clim / chauffage",
+     "at": "@climatisation"
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "at": "@ensuite",
+   "num": "02",
+   "label": "La différence"
+  },
+  {
+   "type": "grid",
+   "at": "@ceux",
+   "items": [
+    {
+     "icon": "car",
+     "label": "Parking gratuit",
+     "at": "@parking"
+    },
+    {
+     "icon": "desk",
+     "label": "Espace de travail",
+     "at": "@espace"
+    },
+    {
+     "icon": "key",
+     "label": "Arrivée autonome",
+     "at": "@l'arrivée"
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "at": "@va",
+   "num": "03",
+   "label": "À faire"
+  },
+  {
+   "type": "list",
+   "at": "@dans",
+   "title": "Dans ton annonce",
+   "items": [
+    {
+     "at": "@rubrique",
+     "text": "Rubrique équipements",
+     "mark": "ok",
+     "markAt": "@équipements/e"
+    },
+    {
+     "at": "@coche",
+     "text": "Coche ce que tu as vraiment",
+     "mark": "ok",
+     "markAt": "@vraiment/e"
+    },
+    {
+     "at": "@ajoute",
+     "text": "Photo des équipements clés",
+     "mark": "ok",
+     "markAt": "@importants/e"
+    }
+   ]
+  },
+  {
+   "type": "results",
+   "at": "@plus",
+   "query": "Wifi · Lave-linge · Parking",
+   "youAt": "@plus+0.2",
+   "riseAt": "@recherches"
+  },
+  {
+   "type": "subscribe",
+   "at": "@abonne",
+   "clickAt": "@abonne+0.7",
+   "next": "Réductions à la semaine et au mois",
+   "nextAt": "@prochain",
+   "nextIcon": "tag"
+  }
+ ]
+}

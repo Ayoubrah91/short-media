@@ -1,0 +1,182 @@
+{
+ "ep": 5,
+ "chapters": [
+  "@option#1",
+  "@option#2",
+  "@option#3"
+ ],
+ "emph": [
+  "23",
+  "heures",
+  "dors",
+  "arrivée",
+  "propreté",
+  "communication",
+  "avis",
+  "baisse",
+  "autonome",
+  "boîte",
+  "clés",
+  "code",
+  "serrure",
+  "connectée",
+  "différent",
+  "confiance",
+  "message",
+  "photos",
+  "seul",
+  "stress"
+ ],
+ "coral": [
+  "autonome"
+ ],
+ "beats": [
+  {
+   "type": "clock",
+   "at": 0,
+   "time": "23:00",
+   "sub": "Vol retardé",
+   "moonAt": "@dors"
+  },
+  {
+   "type": "grid",
+   "at": "@sur",
+   "items": [
+    {
+     "icon": "key",
+     "label": "Arrivée",
+     "at": "@l'arrivée",
+     "onAt": "@l'arrivée+0.4"
+    },
+    {
+     "icon": "broom",
+     "label": "Propreté",
+     "at": "@propreté"
+    },
+    {
+     "icon": "chat",
+     "label": "Communication",
+     "at": "@communication"
+    }
+   ]
+  },
+  {
+   "type": "stars",
+   "at": "@une",
+   "label": "Note : arrivée",
+   "to": 3.8,
+   "fillAt": "@ratée",
+   "chips": [
+    {
+     "at": "@baisse",
+     "text": "Un avis qui baisse",
+     "x": 360,
+     "y": 780,
+     "kind": "dark",
+     "icon": "x"
+    }
+   ]
+  },
+  {
+   "type": "icon",
+   "at": "@solution",
+   "icon": "key",
+   "label": "Arrivée autonome",
+   "onAt": "@autonome"
+  },
+  {
+   "type": "chapter",
+   "at": "@option#1",
+   "num": "01",
+   "label": "Boîte à clés"
+  },
+  {
+   "type": "icon",
+   "at": "@boîte",
+   "icon": "lock",
+   "label": "Boîte à clés + code",
+   "chips": [
+    {
+     "at": "@sécurisée",
+     "text": "Sécurisée",
+     "x": 410,
+     "y": 760,
+     "kind": "coral",
+     "icon": "check"
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "at": "@option#2",
+   "num": "02",
+   "label": "Serrure connectée"
+  },
+  {
+   "type": "phone",
+   "at": "@serrure",
+   "code": "4827",
+   "typeAt": "@code#2",
+   "okAt": "@séjour",
+   "okText": "Porte ouverte",
+   "chips": [
+    {
+     "at": "@séjour",
+     "text": "1 code par séjour",
+     "x": 640,
+     "y": 300,
+     "kind": "coral"
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "at": "@option#3",
+   "num": "03",
+   "label": "Personne de confiance"
+  },
+  {
+   "type": "icon",
+   "at": "@personne",
+   "icon": "user",
+   "label": "Joignable à toute heure",
+   "onAt": "@joignable"
+  },
+  {
+   "type": "chat",
+   "at": "@dans",
+   "msgs": [
+    {
+     "me": true,
+     "text": "Bienvenue ! Voici ton arrivée, étape par étape",
+     "at": "@message"
+    },
+    {
+     "text": "Merci, c'est super clair !",
+     "at": "@étape"
+    }
+   ],
+   "photosAt": "@photos"
+  },
+  {
+   "type": "icon",
+   "at": "@seul-0.9",
+   "icon": "house",
+   "label": "Entrée sans stress",
+   "onAt": "@stress"
+  },
+  {
+   "type": "subscribe",
+   "at": "@abonne",
+   "clickAt": "@abonne+0.7",
+   "next": "De nouveaux épisodes chaque semaine",
+   "nextAt": "@nouveaux",
+   "nextIcon": "bell",
+   "nextKicker": "LA SUITE"
+  }
+ ],
+ "name": "ep5_arrivee",
+ "engine": "engine2.html",
+ "series": "LOCATION COURTE DURÉE",
+ "duration": "auto"
+}

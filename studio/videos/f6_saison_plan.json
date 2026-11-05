@@ -1,0 +1,145 @@
+{
+ "name": "f6_saison",
+ "dir": "ltr",
+ "duration": "auto",
+ "handle": "",
+ "scenes": [
+  {
+   "start": 0,
+   "end": "@avant-0.12",
+   "title": {
+    "bold": "Basse saison",
+    "accent": "le piège"
+   },
+   "prop": "search",
+   "items": [
+    {
+     "type": "strike",
+     "at": "@arrête",
+     "label": "LE RÉFLEXE",
+     "text": "Baisser les prix en premier",
+     "strikeAt": "@erreur"
+    }
+   ]
+  },
+  {
+   "start": "@avant-0.05",
+   "end": "@levier#2-0.12",
+   "title": {
+    "accent": "3 leviers"
+   },
+   "prop": "search",
+   "items": [
+    {
+     "type": "note",
+     "at": "@reste",
+     "text": "dans l'ordre"
+    }
+   ]
+  },
+  {
+   "start": "@levier#2-0.05",
+   "end": "@levier#3-0.12",
+   "title": {
+    "num": 1,
+    "bold": "Taux",
+    "accent": "d'occupation"
+   },
+   "prop": "search",
+   "items": [
+    {
+     "type": "title",
+     "at": "@regarde",
+     "label": "TON POINT DE DÉPART",
+     "text": "Taux d'occupation"
+    }
+   ]
+  },
+  {
+   "start": "@levier#3-0.05",
+   "end": "@levier#4-0.12",
+   "title": {
+    "num": 2,
+    "bold": "Durée",
+    "accent": "minimum"
+   },
+   "prop": "pencil",
+   "items": [
+    {
+     "type": "title",
+     "at": "@assouplis",
+     "label": "ASSOUPLIS",
+     "text": "Durée minimum de séjour",
+     "dark": true
+    }
+   ]
+  },
+  {
+   "start": "@levier#4-0.05",
+   "end": "@seulement-0.5",
+   "title": {
+    "num": 3,
+    "bold": "Annulation",
+    "accent": "flexible"
+   },
+   "prop": "shield",
+   "items": [
+    {
+     "type": "list",
+     "at": "@rends",
+     "label": "CONDITIONS D'ANNULATION",
+     "items": [
+      {
+       "at": "@flexibles",
+       "text": "Plus flexibles",
+       "mark": "ok",
+       "markAt": "@flexibles/e"
+      },
+      {
+       "at": "@rassure",
+       "text": "Rassure ceux qui hésitent",
+       "mark": "ok",
+       "markAt": "@hésitent/e"
+      }
+     ],
+     "minRows": 2
+    }
+   ]
+  },
+  {
+   "start": "@seulement-0.45",
+   "end": "@commente-0.12",
+   "title": {
+    "bold": "Et",
+    "accent": "seulement après"
+   },
+   "prop": "check",
+   "items": [
+    {
+     "type": "title",
+     "at": "@ajustes",
+     "label": "EN DERNIER",
+     "text": "Ajuster le prix"
+    }
+   ],
+   "happy": [
+    [
+     "@ajustes",
+     "@commente"
+    ]
+   ]
+  },
+  {
+   "start": "@commente-0.05",
+   "end": 999,
+   "cta": {
+    "at": "@commente",
+    "word": "Commente",
+    "key": "SAISON",
+    "crewAt": "@saison",
+    "note": "et je t'envoie ma checklist basse saison",
+    "noteAt": "@t'envoie"
+   }
+  }
+ ]
+}

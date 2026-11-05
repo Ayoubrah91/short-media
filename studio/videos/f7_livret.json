@@ -1,0 +1,795 @@
+{
+ "name": "f7_livret",
+ "dir": "ltr",
+ "duration": 39.46,
+ "handle": "",
+ "scenes": [
+  {
+   "start": 0,
+   "end": 7.06,
+   "title": {
+    "bold": "Le livret",
+    "accent": "d'accueil"
+   },
+   "prop": "doc",
+   "items": [
+    {
+     "type": "list",
+     "at": 1.52,
+     "label": "CE QU'IL TE FAIT GAGNER",
+     "items": [
+      {
+       "at": 2.08,
+       "text": "Des heures de messages",
+       "mark": "ok",
+       "markAt": 3.2
+      },
+      {
+       "at": 3.72,
+       "text": "Des avis 5 étoiles",
+       "mark": "ok",
+       "markAt": 5.12
+      }
+     ],
+     "minRows": 2
+    },
+    {
+     "type": "title",
+     "at": 5.28,
+     "label": "DIGITAL",
+     "text": "Livret d'accueil"
+    }
+   ]
+  },
+  {
+   "start": 7.11,
+   "end": 15.92,
+   "title": {
+    "bold": "Les mêmes",
+    "accent": "questions"
+   },
+   "prop": "search",
+   "items": [
+    {
+     "type": "list",
+     "at": 9.2,
+     "label": "ILS TE DEMANDENT",
+     "items": [
+      {
+       "at": 9.84,
+       "text": "Le wifi",
+       "mark": null,
+       "markAt": null
+      },
+      {
+       "at": 10.58,
+       "text": "L'arrivée",
+       "mark": null,
+       "markAt": null
+      },
+      {
+       "at": 11.36,
+       "text": "Le chauffage",
+       "mark": null,
+       "markAt": null
+      },
+      {
+       "at": 12.16,
+       "text": "Le parking",
+       "mark": null,
+       "markAt": null
+      }
+     ],
+     "minRows": 4
+    },
+    {
+     "type": "note",
+     "at": 13.12,
+     "text": "quoi mettre dedans"
+    }
+   ]
+  },
+  {
+   "start": 15.99,
+   "end": 18.12,
+   "title": {
+    "accent": "3 étapes"
+   },
+   "prop": "search"
+  },
+  {
+   "start": 18.19,
+   "end": 23.04,
+   "title": {
+    "num": 1,
+    "bold": "Arrivée",
+    "accent": "facile"
+   },
+   "prop": "doc",
+   "items": [
+    {
+     "type": "list",
+     "at": 20.72,
+     "label": "À METTRE",
+     "items": [
+      {
+       "at": 20.72,
+       "text": "Les codes",
+       "mark": "ok",
+       "markAt": 21.04
+      },
+      {
+       "at": 21.28,
+       "text": "Photos de l'entrée",
+       "mark": "ok",
+       "markAt": 22.02
+      },
+      {
+       "at": 22.6,
+       "text": "Le wifi",
+       "mark": "ok",
+       "markAt": 23.12
+      }
+     ],
+     "minRows": 3
+    }
+   ]
+  },
+  {
+   "start": 23.11,
+   "end": 27.2,
+   "title": {
+    "num": 2,
+    "bold": "Mode",
+    "accent": "d'emploi"
+   },
+   "prop": "pencil",
+   "items": [
+    {
+     "type": "title",
+     "at": 24.48,
+     "label": "APPAREIL PAR APPAREIL",
+     "text": "Le mode d'emploi du logement",
+     "dark": true
+    }
+   ]
+  },
+  {
+   "start": 27.27,
+   "end": 32.06,
+   "title": {
+    "num": 3,
+    "bold": "Bonnes",
+    "accent": "adresses"
+   },
+   "prop": "star",
+   "items": [
+    {
+     "type": "list",
+     "at": 29.08,
+     "label": "AUTOUR DU LOGEMENT",
+     "items": [
+      {
+       "at": 30.32,
+       "text": "Restaurants",
+       "mark": "ok",
+       "markAt": 30.72
+      },
+      {
+       "at": 30.773,
+       "text": "Boulangerie",
+       "mark": "ok",
+       "markAt": 31.44
+      },
+      {
+       "at": 31.6,
+       "text": "Transports",
+       "mark": "ok",
+       "markAt": 32.32
+      }
+     ],
+     "minRows": 3
+    }
+   ]
+  },
+  {
+   "start": 32.11,
+   "end": 35.96,
+   "title": {
+    "bold": "Le bon",
+    "accent": "timing"
+   },
+   "prop": "check",
+   "items": [
+    {
+     "type": "title",
+     "at": 33.24,
+     "label": "ENVOIE-LE",
+     "text": "Juste après la réservation"
+    },
+    {
+     "type": "strike",
+     "at": 34.96,
+     "label": "PAS",
+     "text": "Le jour de l'arrivée",
+     "strikeAt": 35.52
+    }
+   ],
+   "happy": [
+    [
+     33.24,
+     36.08
+    ]
+   ]
+  },
+  {
+   "start": 36.03,
+   "end": 999,
+   "cta": {
+    "at": 36.08,
+    "word": "Commente",
+    "key": "LIVRET",
+    "crewAt": 36.32,
+    "note": "et je t'envoie mon modèle",
+    "noteAt": 37.08
+   }
+  }
+ ],
+ "words": [
+  [
+   "[curious]",
+   0.0,
+   0.128
+  ],
+  [
+   "Ce",
+   0.16,
+   0.24
+  ],
+  [
+   "petit",
+   0.32,
+   0.56
+  ],
+  [
+   "document",
+   0.8,
+   1.04
+  ],
+  [
+   "peut",
+   1.08,
+   1.16
+  ],
+  [
+   "te",
+   1.2,
+   1.28
+  ],
+  [
+   "faire",
+   1.32,
+   1.44
+  ],
+  [
+   "gagner",
+   1.52,
+   1.76
+  ],
+  [
+   "des",
+   1.88,
+   2.0
+  ],
+  [
+   "heures",
+   2.08,
+   2.24
+  ],
+  [
+   "de",
+   2.28,
+   2.32
+  ],
+  [
+   "messages…",
+   2.4,
+   3.2
+  ],
+  [
+   "et",
+   3.28,
+   3.36
+  ],
+  [
+   "des",
+   3.44,
+   3.6
+  ],
+  [
+   "avis",
+   3.72,
+   3.84
+  ],
+  [
+   "5",
+   4.0,
+   4.16
+  ],
+  [
+   "étoiles.",
+   4.24,
+   5.12
+  ],
+  [
+   "Le",
+   5.16,
+   5.2
+  ],
+  [
+   "livret",
+   5.28,
+   5.6
+  ],
+  [
+   "d'accueil",
+   5.68,
+   6.0
+  ],
+  [
+   "digital.",
+   6.08,
+   6.72
+  ],
+  [
+   "[serious]",
+   7.12,
+   7.216
+  ],
+  [
+   "Tes",
+   7.248,
+   7.28
+  ],
+  [
+   "voyageurs",
+   7.36,
+   7.76
+  ],
+  [
+   "te",
+   7.84,
+   7.92
+  ],
+  [
+   "posent",
+   8.0,
+   8.24
+  ],
+  [
+   "toujours",
+   8.28,
+   8.64
+  ],
+  [
+   "les",
+   8.72,
+   8.8
+  ],
+  [
+   "mêmes",
+   8.827,
+   8.96
+  ],
+  [
+   "questions",
+   9.2,
+   9.44
+  ],
+  [
+   ":",
+   9.68,
+   9.707
+  ],
+  [
+   "le",
+   9.733,
+   9.76
+  ],
+  [
+   "wifi,",
+   9.84,
+   10.48
+  ],
+  [
+   "l'arrivée,",
+   10.507,
+   11.2
+  ],
+  [
+   "le",
+   11.24,
+   11.28
+  ],
+  [
+   "chauffage,",
+   11.36,
+   11.96
+  ],
+  [
+   "le",
+   12.0,
+   12.08
+  ],
+  [
+   "parking.",
+   12.16,
+   12.72
+  ],
+  [
+   "Reste",
+   13.12,
+   13.52
+  ],
+  [
+   "jusqu'au",
+   13.6,
+   13.92
+  ],
+  [
+   "bout,",
+   14.0,
+   14.4
+  ],
+  [
+   "je",
+   14.44,
+   14.48
+  ],
+  [
+   "te",
+   14.56,
+   14.64
+  ],
+  [
+   "dis",
+   14.72,
+   14.8
+  ],
+  [
+   "quoi",
+   14.88,
+   15.04
+  ],
+  [
+   "mettre",
+   15.12,
+   15.36
+  ],
+  [
+   "dedans.",
+   15.44,
+   16.0
+  ],
+  [
+   "Voilà",
+   16.04,
+   16.24
+  ],
+  [
+   "comment",
+   16.32,
+   16.48
+  ],
+  [
+   "le",
+   16.52,
+   16.56
+  ],
+  [
+   "faire,",
+   16.64,
+   17.04
+  ],
+  [
+   "en",
+   17.08,
+   17.12
+  ],
+  [
+   "trois",
+   17.2,
+   17.44
+  ],
+  [
+   "étapes.",
+   17.52,
+   18.16
+  ],
+  [
+   "Étape",
+   18.24,
+   18.48
+  ],
+  [
+   "numéro",
+   18.56,
+   18.88
+  ],
+  [
+   "un",
+   18.96,
+   19.04
+  ],
+  [
+   ":",
+   19.44,
+   19.467
+  ],
+  [
+   "l'arrivée,",
+   19.493,
+   20.16
+  ],
+  [
+   "avec",
+   20.28,
+   20.4
+  ],
+  [
+   "les",
+   20.48,
+   20.56
+  ],
+  [
+   "codes,",
+   20.72,
+   21.04
+  ],
+  [
+   "les",
+   21.12,
+   21.2
+  ],
+  [
+   "photos",
+   21.28,
+   21.52
+  ],
+  [
+   "de",
+   21.56,
+   21.6
+  ],
+  [
+   "l'entrée,",
+   21.627,
+   22.24
+  ],
+  [
+   "et",
+   22.28,
+   22.32
+  ],
+  [
+   "le",
+   22.36,
+   22.4
+  ],
+  [
+   "wifi.",
+   22.6,
+   23.12
+  ],
+  [
+   "Étape",
+   23.16,
+   23.44
+  ],
+  [
+   "numéro",
+   23.52,
+   23.76
+  ],
+  [
+   "deux",
+   23.92,
+   24.0
+  ],
+  [
+   ":",
+   24.32,
+   24.347
+  ],
+  [
+   "le",
+   24.373,
+   24.4
+  ],
+  [
+   "mode",
+   24.48,
+   24.64
+  ],
+  [
+   "d'emploi",
+   24.68,
+   24.96
+  ],
+  [
+   "du",
+   25.04,
+   25.12
+  ],
+  [
+   "logement,",
+   25.2,
+   25.76
+  ],
+  [
+   "appareil",
+   25.88,
+   26.32
+  ],
+  [
+   "par",
+   26.4,
+   26.48
+  ],
+  [
+   "appareil.",
+   26.56,
+   27.28
+  ],
+  [
+   "Étape",
+   27.32,
+   27.6
+  ],
+  [
+   "numéro",
+   27.68,
+   27.92
+  ],
+  [
+   "trois",
+   28.0,
+   28.16
+  ],
+  [
+   ":",
+   28.56,
+   28.613
+  ],
+  [
+   "tes",
+   28.667,
+   28.72
+  ],
+  [
+   "bonnes",
+   28.8,
+   29.04
+  ],
+  [
+   "adresses",
+   29.08,
+   29.36
+  ],
+  [
+   "autour,",
+   29.48,
+   30.0
+  ],
+  [
+   "restaurants,",
+   30.32,
+   30.72
+  ],
+  [
+   "boulangerie,",
+   30.773,
+   31.44
+  ],
+  [
+   "transports.",
+   31.6,
+   32.32
+  ],
+  [
+   "[excited]",
+   32.343,
+   32.434
+  ],
+  [
+   "Et",
+   32.457,
+   32.48
+  ],
+  [
+   "envoie-le",
+   32.56,
+   33.12
+  ],
+  [
+   "juste",
+   33.24,
+   33.44
+  ],
+  [
+   "après",
+   33.56,
+   33.68
+  ],
+  [
+   "la",
+   33.72,
+   33.76
+  ],
+  [
+   "réservation,",
+   33.84,
+   34.64
+  ],
+  [
+   "pas",
+   34.72,
+   34.8
+  ],
+  [
+   "le",
+   34.84,
+   34.88
+  ],
+  [
+   "jour",
+   34.96,
+   35.12
+  ],
+  [
+   "de",
+   35.16,
+   35.2
+  ],
+  [
+   "l'arrivée.",
+   35.227,
+   35.92
+  ],
+  [
+   "Commente",
+   36.08,
+   36.28
+  ],
+  [
+   "LIVRET,",
+   36.32,
+   36.88
+  ],
+  [
+   "et",
+   36.92,
+   36.96
+  ],
+  [
+   "je",
+   37.0,
+   37.04
+  ],
+  [
+   "t'envoie",
+   37.08,
+   37.36
+  ],
+  [
+   "mon",
+   37.44,
+   37.52
+  ],
+  [
+   "modèle.",
+   37.6,
+   38.16
+  ]
+ ]
+}

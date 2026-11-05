@@ -1,0 +1,7 @@
+{
+  "name": "bayto-studio",
+  "private": true,
+  "type": "module",
+  "description": "Studio vidéo Bayto : moteur d'animation HTML + rendu Playwright/ffmpeg",
+  "dependencies": { "playwright": "^1.48.0" }
+}

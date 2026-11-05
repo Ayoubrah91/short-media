@@ -1,0 +1,164 @@
+{
+ "name": "f5_calendrier",
+ "dir": "ltr",
+ "duration": "auto",
+ "handle": "",
+ "scenes": [
+  {
+   "start": 0,
+   "end": "@trois#1-0.12",
+   "title": {
+    "bold": "Les trous",
+    "accent": "du calendrier"
+   },
+   "prop": "search",
+   "items": [
+    {
+     "type": "title",
+     "at": "@nuits",
+     "label": "TON CALENDRIER",
+     "text": "Nuits seules entre 2 réservations",
+     "dark": true
+    },
+    {
+     "type": "stamp",
+     "at": "@vide",
+     "text": "Nuit vide = nuit perdue",
+     "rot": -4
+    },
+    {
+     "type": "note",
+     "at": "@reste",
+     "text": "reste jusqu'au bout"
+    }
+   ]
+  },
+  {
+   "start": "@trois#1-0.05",
+   "end": "@réglage#2-0.12",
+   "title": {
+    "accent": "3 réglages"
+   },
+   "prop": "search",
+   "items": [
+    {
+     "type": "pill",
+     "at": "@airbnb",
+     "text": "Airbnb · Booking"
+    }
+   ]
+  },
+  {
+   "start": "@réglage#2-0.05",
+   "end": "@réglage#3-0.12",
+   "title": {
+    "num": 1,
+    "bold": "Repère",
+    "accent": "les orphelines"
+   },
+   "prop": "search",
+   "items": [
+    {
+     "type": "title",
+     "at": "@orphelines",
+     "label": "NUITS ORPHELINES",
+     "text": "1 ou 2 nuits entre deux séjours",
+     "dark": true
+    }
+   ]
+  },
+  {
+   "start": "@réglage#3-0.05",
+   "end": "@réglage#4-0.12",
+   "title": {
+    "num": 2,
+    "bold": "Durée",
+    "accent": "minimum"
+   },
+   "prop": "pencil",
+   "items": [
+    {
+     "type": "list",
+     "at": "@assouplis",
+     "label": "SUR CES DATES UNIQUEMENT",
+     "items": [
+      {
+       "at": "@assouplis",
+       "text": "Assouplis la durée minimum",
+       "mark": "ok",
+       "markAt": "@dates/e"
+      }
+     ],
+     "minRows": 1
+    }
+   ]
+  },
+  {
+   "start": "@réglage#4-0.05",
+   "end": "@petit-0.6",
+   "title": {
+    "num": 3,
+    "bold": "Prix",
+    "accent": "ajusté"
+   },
+   "prop": "pencil",
+   "items": [
+    {
+     "type": "list",
+     "at": "@baisse",
+     "label": "CES NUITS-LÀ",
+     "items": [
+      {
+       "at": "@baisse",
+       "text": "Baisse légèrement le prix",
+       "mark": "ok",
+       "markAt": "@prix/e"
+      },
+      {
+       "at": "@partent",
+       "text": "Pour qu'elles partent vite",
+       "mark": "ok",
+       "markAt": "@vite/e"
+      }
+     ],
+     "minRows": 2
+    }
+   ]
+  },
+  {
+   "start": "@petit-0.55",
+   "end": "@commente-0.12",
+   "title": {
+    "bold": "Sur une",
+    "accent": "année"
+   },
+   "prop": "star",
+   "items": [
+    {
+     "type": "stamp",
+     "at": "@différence",
+     "text": "Une vraie différence",
+     "rot": -6
+    }
+   ],
+   "happy": [
+    [
+     "@différence",
+     "@commente"
+    ]
+   ]
+  },
+  {
+   "start": "@commente-0.05",
+   "end": 999,
+   "cta": {
+    "at": "@commente",
+    "word": "Commente",
+    "key": "CALENDRIER",
+    "crewAt": "@calendrier",
+    "note": "et je t'envoie ma méthode complète",
+    "noteAt": "@t'envoie"
+   }
+  }
+ ]
+}

@@ -1,0 +1,200 @@
+{
+ "ep": 2,
+ "chapters": [
+  "@un",
+  "@deux",
+  "@trois"
+ ],
+ "emph": [
+  "coup",
+  "cœur",
+  "voyageurs",
+  "automatiquement",
+  "notes",
+  "avis",
+  "données",
+  "top",
+  "10",
+  "5",
+  "1",
+  "séparément",
+  "superhost",
+  "zéro",
+  "annulation",
+  "surprise"
+ ],
+ "coral": [
+  "coup",
+  "cœur"
+ ],
+ "beats": [
+  {
+   "type": "results",
+   "at": 0,
+   "query": "2 voyageurs · 3 nuits",
+   "youAt": 0.3,
+   "badgeAt": "@coup",
+   "badge": "Coup de cœur voyageurs"
+  },
+  {
+   "type": "list",
+   "at": "@il",
+   "title": "Ce badge…",
+   "items": [
+    {
+     "at": "@donné",
+     "text": "N'est pas pour tout le monde",
+     "mark": "no",
+     "markAt": "@monde"
+    },
+    {
+     "at": "@demande",
+     "text": "Ne se demande pas",
+     "mark": "no",
+     "markAt": "@demande/e"
+    },
+    {
+     "at": "@automatiquement",
+     "text": "Attribué automatiquement",
+     "mark": "ok",
+     "markAt": "@automatiquement/e"
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "at": "@un",
+   "num": "01",
+   "label": "L'analyse"
+  },
+  {
+   "type": "grid",
+   "at": "@analyse",
+   "items": [
+    {
+     "icon": "star",
+     "label": "Notes",
+     "at": "@notes",
+     "onAt": "@notes+0.3"
+    },
+    {
+     "icon": "chat",
+     "label": "Avis",
+     "at": "@avis",
+     "onAt": "@avis+0.3"
+    },
+    {
+     "icon": "cal",
+     "label": "Séjours",
+     "at": "@données",
+     "onAt": "@séjours"
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "at": "@deux",
+   "num": "02",
+   "label": "La comparaison"
+  },
+  {
+   "type": "results",
+   "at": "@compare",
+   "query": "Dans le monde · Dans ton pays",
+   "youAt": "@compare",
+   "riseAt": "@pays"
+  },
+  {
+   "type": "podium",
+   "at": "@meilleurs",
+   "bars": [
+    {
+     "k": "Top",
+     "v": "10 %",
+     "hgt": 300,
+     "at": "@top#1",
+     "color": "#FFB3C1"
+    },
+    {
+     "k": "Top",
+     "v": "5 %",
+     "hgt": 420,
+     "at": "@top#2",
+     "color": "#FF6F8A"
+    },
+    {
+     "k": "Top",
+     "v": "1 %",
+     "hgt": 560,
+     "at": "@top#3",
+     "color": "#FF385C"
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "at": "@trois",
+   "num": "03",
+   "label": "Logement par logement"
+  },
+  {
+   "type": "grid",
+   "at": "@chaque",
+   "items": [
+    {
+     "icon": "house",
+     "label": "Logement 1",
+     "at": "@chaque",
+     "onAt": "@séparément"
+    },
+    {
+     "icon": "house",
+     "label": "Logement 2",
+     "at": "@chaque+0.2",
+     "offAt": "@séparément"
+    }
+   ],
+   "chips": [
+    {
+     "at": "@superhost",
+     "text": "Superhost ≠ suffisant",
+     "x": 290,
+     "y": 800,
+     "kind": "dark",
+     "icon": "x"
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "at": "@donc",
+   "title": "La clé",
+   "items": [
+    {
+     "at": "@surprise-0.6",
+     "text": "Séjours sans mauvaise surprise",
+     "mark": "ok",
+     "markAt": "@surprise/e"
+    },
+    {
+     "at": "@zéro",
+     "text": "Zéro annulation",
+     "mark": "ok",
+     "markAt": "@annulation/e"
+    }
+   ]
+  },
+  {
+   "type": "subscribe",
+   "at": "@abonne",
+   "clickAt": "@abonne+0.7",
+   "next": "Les frais de ménage qui te coûtent des réservations",
+   "nextAt": "@prochain",
+   "nextIcon": "cal"
+  }
+ ],
+ "name": "ep2_coupdecoeur",
+ "engine": "engine2.html",
+ "series": "LOCATION COURTE DURÉE",
+ "duration": "auto"
+}

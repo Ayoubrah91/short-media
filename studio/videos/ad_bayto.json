@@ -1,0 +1,806 @@
+{
+ "name": "ad_bayto",
+ "engine": "engine2.html",
+ "series": "LOCATION COURTE DURÉE",
+ "epLabel": "· L'ASTUCE ULTIME",
+ "duration": 49.03,
+ "chapters": [
+  6.394,
+  16.12,
+  26.73,
+  40.082
+ ],
+ "emph": [
+  "l'astuce",
+  "ultime",
+  "booster",
+  "fond",
+  "pro",
+  "galère",
+  "photographe",
+  "dispo",
+  "place",
+  "retouches",
+  "téléphone",
+  "0,5",
+  "coin",
+  "clic",
+  "transforme",
+  "draps",
+  "table",
+  "cuisine",
+  "télé",
+  "prêtes",
+  "airbnb",
+  "trois",
+  "offertes",
+  "abonne-toi"
+ ],
+ "coral": [
+  "ultime",
+  "bayto",
+  "clic",
+  "offertes",
+  "bayto.tech"
+ ],
+ "beats": [
+  {
+   "type": "hero",
+   "at": 0,
+   "kicker": "JE TE DONNE",
+   "l1": "L'ASTUCE",
+   "l2": "ULTIME",
+   "l2At": 1.924,
+   "burstAt": 2.024,
+   "sub": "pour booster ton logement",
+   "subAt": 2.684,
+   "chips": [
+    {
+     "at": 4.162,
+     "text": "À fond",
+     "x": 660,
+     "y": 835,
+     "kind": "coral",
+     "icon": "bolt"
+    }
+   ]
+  },
+  {
+   "type": "ba",
+   "at": 4.75,
+   "before": "assets/ad/chambre_avant.jpg",
+   "after": "assets/ad/chambre_apres.jpg",
+   "revealAt": 5.722,
+   "label": "Des photos de pro"
+  },
+  {
+   "type": "list",
+   "at": 6.394,
+   "title": "Un photographe pro ?",
+   "items": [
+    {
+     "at": 9.05,
+     "text": "Le trouver",
+     "mark": "no",
+     "markAt": 10.382
+    },
+    {
+     "at": 10.602,
+     "text": "Attendre qu'il soit dispo",
+     "mark": "no",
+     "markAt": 12.188
+    },
+    {
+     "at": 12.408,
+     "text": "Tout mettre en place",
+     "mark": "no",
+     "markAt": 13.784
+    },
+    {
+     "at": 14.448,
+     "text": "Attendre les retouches",
+     "mark": "no",
+     "markAt": 15.78
+    }
+   ],
+   "chips": [
+    {
+     "at": 7.614,
+     "text": "Galère",
+     "x": 700,
+     "y": 95,
+     "kind": "coral",
+     "icon": "x"
+    }
+   ]
+  },
+  {
+   "type": "hero",
+   "at": 16.12,
+   "kicker": "MAIS VOILÀ",
+   "l1": "L'ASTUCE",
+   "l2": "ULTIME",
+   "l2At": 17.444,
+   "burstAt": 17.544
+  },
+  {
+   "type": "logo",
+   "at": 18.116,
+   "logoAt": 19.636,
+   "tagAt": 20.086,
+   "tag": "Le studio photo de ta location"
+  },
+  {
+   "type": "cam",
+   "at": 20.392,
+   "img": "assets/ad/salon_avant.jpg",
+   "zoomAt": 23.808,
+   "shootAt": 25.828,
+   "s0": 1.9,
+   "chips": [
+    {
+     "at": 24.158,
+     "text": "Mode 0,5 : toute la pièce",
+     "x": 215,
+     "y": 120,
+     "kind": "coral",
+     "icon": "camera"
+    },
+    {
+     "at": 24.982,
+     "text": "Depuis un coin",
+     "x": 370,
+     "y": 830,
+     "kind": "dark",
+     "icon": "check"
+    }
+   ]
+  },
+  {
+   "type": "upload",
+   "at": 26.73,
+   "dropAt": 27.18,
+   "thumbs": [
+    "assets/ad/chambre_avant.jpg",
+    "assets/ad/table_avant.jpg",
+    "assets/ad/cuisine_avant.jpg",
+    "assets/ad/salon_avant.jpg"
+   ],
+   "clickAt": 29.686,
+   "barDur": 1.3,
+   "status": "Bayto transforme tes photos…"
+  },
+  {
+   "type": "ba",
+   "at": 31.662,
+   "before": "assets/ad/chambre_avant.jpg",
+   "after": "assets/ad/chambre_apres.jpg",
+   "revealAt": 32.546,
+   "label": "Draps tendus"
+  },
+  {
+   "type": "ba",
+   "at": 32.928,
+   "before": "assets/ad/table_avant.jpg",
+   "after": "assets/ad/table_apres.jpg",
+   "revealAt": 33.804,
+   "label": "Table dressée"
+  },
+  {
+   "type": "ba",
+   "at": 34.186,
+   "before": "assets/ad/cuisine_avant.jpg",
+   "after": "assets/ad/cuisine_apres.jpg",
+   "revealAt": 35.02,
+   "label": "Cuisine rangée"
+  },
+  {
+   "type": "ba",
+   "at": 35.486,
+   "before": "assets/ad/salon_avant.jpg",
+   "after": "assets/ad/salon_apres.jpg",
+   "revealAt": 36.362,
+   "label": "Télé allumée"
+  },
+  {
+   "type": "grid6",
+   "at": 36.972,
+   "imgs": [
+    "assets/ad/chambre_apres.jpg",
+    "assets/ad/table_apres.jpg",
+    "assets/ad/cuisine_apres.jpg",
+    "assets/ad/salon_apres.jpg",
+    "assets/ad/bain_apres.jpg"
+   ],
+   "endAt": 38.938,
+   "endText": "Prêtes pour Airbnb"
+  },
+  {
+   "type": "offer",
+   "at": 40.082,
+   "num": "3",
+   "l1": "photos",
+   "l2": "offertes",
+   "tags": [
+    {
+     "text": "Sans carte bancaire",
+     "icon": "check",
+     "kind": "dark",
+     "at": 42.02
+    }
+   ],
+   "url": "bayto.tech",
+   "urlAt": 42.37
+  },
+  {
+   "type": "brand",
+   "at": 42.78,
+   "clickAt": 44.582,
+   "brandAt": 45.128,
+   "logo": "bayto",
+   "tag": "Booste ton logement"
+  }
+ ],
+ "words": [
+  [
+   "Je",
+   0.15,
+   0.344
+  ],
+  [
+   "vais",
+   0.404,
+   0.682
+  ],
+  [
+   "te",
+   0.742,
+   0.936
+  ],
+  [
+   "donner",
+   0.996,
+   1.358
+  ],
+  [
+   "l'astuce",
+   1.418,
+   1.864
+  ],
+  [
+   "ultime",
+   1.924,
+   2.286
+  ],
+  [
+   "pour",
+   2.346,
+   2.624
+  ],
+  [
+   "booster",
+   2.684,
+   3.088
+  ],
+  [
+   "ton",
+   3.148,
+   3.384
+  ],
+  [
+   "logement",
+   3.444,
+   3.89
+  ],
+  [
+   "à",
+   3.95,
+   4.102
+  ],
+  [
+   "fond :",
+   4.162,
+   4.44
+  ],
+  [
+   "des",
+   4.75,
+   4.986
+  ],
+  [
+   "photos",
+   5.046,
+   5.408
+  ],
+  [
+   "de",
+   5.468,
+   5.662
+  ],
+  [
+   "pro.",
+   5.722,
+   6.0
+  ],
+  [
+   "Je",
+   6.44,
+   6.634
+  ],
+  [
+   "sais,",
+   6.694,
+   7.014
+  ],
+  [
+   "c'est",
+   7.234,
+   7.554
+  ],
+  [
+   "galère.",
+   7.614,
+   8.018
+  ],
+  [
+   "Il",
+   8.458,
+   8.652
+  ],
+  [
+   "faut",
+   8.712,
+   8.99
+  ],
+  [
+   "trouver",
+   9.05,
+   9.454
+  ],
+  [
+   "un",
+   9.514,
+   9.708
+  ],
+  [
+   "photographe,",
+   9.768,
+   10.382
+  ],
+  [
+   "attendre",
+   10.602,
+   11.048
+  ],
+  [
+   "qu'il",
+   11.108,
+   11.428
+  ],
+  [
+   "soit",
+   11.488,
+   11.766
+  ],
+  [
+   "dispo,",
+   11.826,
+   12.188
+  ],
+  [
+   "tout",
+   12.408,
+   12.686
+  ],
+  [
+   "mettre",
+   12.746,
+   13.108
+  ],
+  [
+   "en",
+   13.168,
+   13.362
+  ],
+  [
+   "place…",
+   13.422,
+   13.784
+  ],
+  [
+   "et",
+   14.194,
+   14.388
+  ],
+  [
+   "attendre",
+   14.448,
+   14.894
+  ],
+  [
+   "les",
+   14.954,
+   15.19
+  ],
+  [
+   "retouches.",
+   15.25,
+   15.78
+  ],
+  [
+   "Mais",
+   16.22,
+   16.498
+  ],
+  [
+   "voilà",
+   16.558,
+   16.878
+  ],
+  [
+   "l'astuce",
+   16.938,
+   17.384
+  ],
+  [
+   "ultime :",
+   17.444,
+   17.806
+  ],
+  [
+   "une",
+   18.116,
+   18.352
+  ],
+  [
+   "appli",
+   18.412,
+   18.732
+  ],
+  [
+   "qui",
+   18.792,
+   19.028
+  ],
+  [
+   "s'appelle",
+   19.088,
+   19.576
+  ],
+  [
+   "Bayto.",
+   19.636,
+   19.998
+  ],
+  [
+   "Tu",
+   20.438,
+   20.632
+  ],
+  [
+   "prends",
+   20.692,
+   21.054
+  ],
+  [
+   "tes",
+   21.114,
+   21.35
+  ],
+  [
+   "photos",
+   21.41,
+   21.772
+  ],
+  [
+   "avec",
+   21.832,
+   22.11
+  ],
+  [
+   "ton",
+   22.17,
+   22.406
+  ],
+  [
+   "téléphone,",
+   22.466,
+   22.996
+  ],
+  [
+   "en",
+   23.216,
+   23.41
+  ],
+  [
+   "mode",
+   23.47,
+   23.748
+  ],
+  [
+   "0,5,",
+   23.808,
+   24.086
+  ],
+  [
+   "depuis",
+   24.306,
+   24.668
+  ],
+  [
+   "un",
+   24.728,
+   24.922
+  ],
+  [
+   "coin",
+   24.982,
+   25.26
+  ],
+  [
+   "de",
+   25.32,
+   25.514
+  ],
+  [
+   "la",
+   25.574,
+   25.768
+  ],
+  [
+   "pièce.",
+   25.828,
+   26.19
+  ],
+  [
+   "Tu",
+   26.63,
+   26.824
+  ],
+  [
+   "les",
+   26.884,
+   27.12
+  ],
+  [
+   "donnes",
+   27.18,
+   27.542
+  ],
+  [
+   "à",
+   27.602,
+   27.754
+  ],
+  [
+   "Bayto…",
+   27.814,
+   28.176
+  ],
+  [
+   "et",
+   28.586,
+   28.78
+  ],
+  [
+   "en",
+   28.84,
+   29.034
+  ],
+  [
+   "un",
+   29.094,
+   29.288
+  ],
+  [
+   "seul",
+   29.348,
+   29.626
+  ],
+  [
+   "clic,",
+   29.686,
+   30.006
+  ],
+  [
+   "il",
+   30.226,
+   30.42
+  ],
+  [
+   "transforme",
+   30.48,
+   31.01
+  ],
+  [
+   "tout :",
+   31.07,
+   31.348
+  ],
+  [
+   "il",
+   31.658,
+   31.852
+  ],
+  [
+   "tend",
+   31.912,
+   32.19
+  ],
+  [
+   "les",
+   32.25,
+   32.486
+  ],
+  [
+   "draps,",
+   32.546,
+   32.908
+  ],
+  [
+   "dresse",
+   33.128,
+   33.49
+  ],
+  [
+   "la",
+   33.55,
+   33.744
+  ],
+  [
+   "table,",
+   33.804,
+   34.166
+  ],
+  [
+   "range",
+   34.386,
+   34.706
+  ],
+  [
+   "la",
+   34.766,
+   34.96
+  ],
+  [
+   "cuisine,",
+   35.02,
+   35.466
+  ],
+  [
+   "allume",
+   35.686,
+   36.048
+  ],
+  [
+   "la",
+   36.108,
+   36.302
+  ],
+  [
+   "télé.",
+   36.362,
+   36.682
+  ],
+  [
+   "Tes",
+   37.122,
+   37.358
+  ],
+  [
+   "photos",
+   37.418,
+   37.78
+  ],
+  [
+   "sont",
+   37.84,
+   38.118
+  ],
+  [
+   "prêtes",
+   38.178,
+   38.54
+  ],
+  [
+   "pour",
+   38.6,
+   38.878
+  ],
+  [
+   "Airbnb.",
+   38.938,
+   39.342
+  ],
+  [
+   "Et",
+   39.782,
+   39.976
+  ],
+  [
+   "tes",
+   40.036,
+   40.272
+  ],
+  [
+   "trois",
+   40.332,
+   40.652
+  ],
+  [
+   "premières",
+   40.712,
+   41.2
+  ],
+  [
+   "photos",
+   41.26,
+   41.622
+  ],
+  [
+   "sont",
+   41.682,
+   41.96
+  ],
+  [
+   "offertes !",
+   42.02,
+   42.466
+  ],
+  [
+   "Et",
+   42.776,
+   42.97
+  ],
+  [
+   "n'oublie",
+   43.03,
+   43.476
+  ],
+  [
+   "pas :",
+   43.536,
+   43.772
+  ],
+  [
+   "abonne-toi,",
+   44.082,
+   44.654
+  ],
+  [
+   "et",
+   44.874,
+   45.068
+  ],
+  [
+   "utilise",
+   45.128,
+   45.532
+  ],
+  [
+   "Bayto.tech",
+   45.592,
+   46.122
+  ],
+  [
+   "pour",
+   46.182,
+   46.46
+  ],
+  [
+   "booster",
+   46.52,
+   46.924
+  ],
+  [
+   "ton",
+   46.984,
+   47.22
+  ],
+  [
+   "logement !",
+   47.28,
+   47.726
+  ]
+ ]
+}

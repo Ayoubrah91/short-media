@@ -1,0 +1,244 @@
+{
+ "name": "ad_bayto",
+ "engine": "engine2.html",
+ "series": "LOCATION COURTE DURÉE",
+ "epLabel": "· L'ASTUCE ULTIME",
+ "duration": "auto",
+ "chapters": [
+  "@sais-0.3",
+  "@mais-0.1",
+  "@donnes-0.45",
+  "@trois-0.25"
+ ],
+ "emph": [
+  "l'astuce",
+  "ultime",
+  "booster",
+  "fond",
+  "pro",
+  "galère",
+  "photographe",
+  "dispo",
+  "place",
+  "retouches",
+  "téléphone",
+  "0,5",
+  "coin",
+  "clic",
+  "transforme",
+  "draps",
+  "table",
+  "cuisine",
+  "télé",
+  "prêtes",
+  "airbnb",
+  "trois",
+  "offertes",
+  "abonne-toi"
+ ],
+ "coral": [
+  "ultime",
+  "bayto",
+  "clic",
+  "offertes",
+  "bayto.tech"
+ ],
+ "beats": [
+  {
+   "type": "hero",
+   "at": 0,
+   "kicker": "JE TE DONNE",
+   "l1": "L'ASTUCE",
+   "l2": "ULTIME",
+   "l2At": "@ultime",
+   "burstAt": "@ultime+0.1",
+   "sub": "pour booster ton logement",
+   "subAt": "@booster",
+   "chips": [
+    {
+     "at": "@fond",
+     "text": "À fond",
+     "x": 660,
+     "y": 835,
+     "kind": "coral",
+     "icon": "bolt"
+    }
+   ]
+  },
+  {
+   "type": "ba",
+   "at": "@des",
+   "before": "assets/ad/chambre_avant.jpg",
+   "after": "assets/ad/chambre_apres.jpg",
+   "revealAt": "@pro",
+   "label": "Des photos de pro"
+  },
+  {
+   "type": "list",
+   "at": "@sais-0.3",
+   "title": "Un photographe pro ?",
+   "items": [
+    {
+     "at": "@trouver",
+     "text": "Le trouver",
+     "mark": "no",
+     "markAt": "@photographe/e"
+    },
+    {
+     "at": "@attendre",
+     "text": "Attendre qu'il soit dispo",
+     "mark": "no",
+     "markAt": "@dispo/e"
+    },
+    {
+     "at": "@tout",
+     "text": "Tout mettre en place",
+     "mark": "no",
+     "markAt": "@place/e"
+    },
+    {
+     "at": "@attendre",
+     "text": "Attendre les retouches",
+     "mark": "no",
+     "markAt": "@retouches/e"
+    }
+   ],
+   "chips": [
+    {
+     "at": "@galère",
+     "text": "Galère",
+     "x": 700,
+     "y": 95,
+     "kind": "coral",
+     "icon": "x"
+    }
+   ]
+  },
+  {
+   "type": "hero",
+   "at": "@mais-0.1",
+   "kicker": "MAIS VOILÀ",
+   "l1": "L'ASTUCE",
+   "l2": "ULTIME",
+   "l2At": "@ultime",
+   "burstAt": "@ultime+0.1"
+  },
+  {
+   "type": "logo",
+   "at": "@une",
+   "logoAt": "@bayto",
+   "tagAt": "@bayto+0.45",
+   "tag": "Le studio photo de ta location"
+  },
+  {
+   "type": "cam",
+   "at": "@prends-0.3",
+   "img": "assets/ad/salon_avant.jpg",
+   "zoomAt": "@0,5",
+   "shootAt": "@pièce",
+   "s0": 1.9,
+   "chips": [
+    {
+     "at": "@0,5+0.35",
+     "text": "Mode 0,5 : toute la pièce",
+     "x": 215,
+     "y": 120,
+     "kind": "coral",
+     "icon": "camera"
+    },
+    {
+     "at": "@coin",
+     "text": "Depuis un coin",
+     "x": 370,
+     "y": 830,
+     "kind": "dark",
+     "icon": "check"
+    }
+   ]
+  },
+  {
+   "type": "upload",
+   "at": "@donnes-0.45",
+   "dropAt": "@donnes",
+   "thumbs": [
+    "assets/ad/chambre_avant.jpg",
+    "assets/ad/table_avant.jpg",
+    "assets/ad/cuisine_avant.jpg",
+    "assets/ad/salon_avant.jpg"
+   ],
+   "clickAt": "@clic",
+   "barDur": 1.3,
+   "status": "Bayto transforme tes photos…"
+  },
+  {
+   "type": "ba",
+   "at": "@tend-0.25",
+   "before": "assets/ad/chambre_avant.jpg",
+   "after": "assets/ad/chambre_apres.jpg",
+   "revealAt": "@draps",
+   "label": "Draps tendus"
+  },
+  {
+   "type": "ba",
+   "at": "@dresse-0.2",
+   "before": "assets/ad/table_avant.jpg",
+   "after": "assets/ad/table_apres.jpg",
+   "revealAt": "@table",
+   "label": "Table dressée"
+  },
+  {
+   "type": "ba",
+   "at": "@range-0.2",
+   "before": "assets/ad/cuisine_avant.jpg",
+   "after": "assets/ad/cuisine_apres.jpg",
+   "revealAt": "@cuisine",
+   "label": "Cuisine rangée"
+  },
+  {
+   "type": "ba",
+   "at": "@allume-0.2",
+   "before": "assets/ad/salon_avant.jpg",
+   "after": "assets/ad/salon_apres.jpg",
+   "revealAt": "@télé",
+   "label": "Télé allumée"
+  },
+  {
+   "type": "grid6",
+   "at": "@tes-0.15",
+   "imgs": [
+    "assets/ad/chambre_apres.jpg",
+    "assets/ad/table_apres.jpg",
+    "assets/ad/cuisine_apres.jpg",
+    "assets/ad/salon_apres.jpg",
+    "assets/ad/bain_apres.jpg"
+   ],
+   "endAt": "@airbnb",
+   "endText": "Prêtes pour Airbnb"
+  },
+  {
+   "type": "offer",
+   "at": "@trois-0.25",
+   "num": "3",
+   "l1": "photos",
+   "l2": "offertes",
+   "tags": [
+    {
+     "text": "Sans carte bancaire",
+     "icon": "check",
+     "kind": "dark",
+     "at": "@offertes"
+    }
+   ],
+   "url": "bayto.tech",
+   "urlAt": "@offertes+0.35"
+  },
+  {
+   "type": "brand",
+   "at": "@n'oublie-0.25",
+   "clickAt": "@abonne+0.5",
+   "brandAt": "@utilise",
+   "logo": "bayto",
+   "tag": "Booste ton logement"
+  }
+ ]
+}

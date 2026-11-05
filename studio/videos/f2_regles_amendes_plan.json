@@ -1,0 +1,213 @@
+{
+ "name": "f2_regles_amendes",
+ "dir": "ltr",
+ "duration": "auto",
+ "handle": "",
+ "scenes": [
+  {
+   "start": 0,
+   "end": "@voilà-0.12",
+   "title": {
+    "bold": "Fin des",
+    "accent": "amendes"
+   },
+   "prop": "shield",
+   "items": [
+    {
+     "type": "list",
+     "at": "@amendes",
+     "label": "AIRBNB · 20 NOVEMBRE",
+     "items": [
+      {
+       "at": "@amendes",
+       "text": "Les amendes",
+       "mark": "no",
+       "markAt": "@fini"
+      },
+      {
+       "at": "@règles",
+       "text": "Les règles par message",
+       "mark": "no",
+       "markAt": "@aussi"
+      }
+     ],
+     "minRows": 2
+    },
+    {
+     "type": "pill",
+     "at": "@règlement",
+     "text": "ton règlement intérieur change"
+    },
+    {
+     "type": "note",
+     "at": "@reste",
+     "text": "reste jusqu'au bout"
+    }
+   ]
+  },
+  {
+   "start": "@voilà-0.05",
+   "end": "@étape#2-0.12",
+   "title": {
+    "accent": "3 étapes"
+   },
+   "prop": "search"
+  },
+  {
+   "start": "@étape#2-0.05",
+   "end": "@étape#3-0.12",
+   "title": {
+    "num": 1,
+    "bold": "7 règles",
+    "accent": "standard"
+   },
+   "prop": "doc",
+   "items": [
+    {
+     "type": "stat",
+     "at": "@sept",
+     "label": "RÈGLES STANDARD",
+     "value": 7,
+     "suffix": "",
+     "countDur": 0.6,
+     "color": "green"
+    },
+    {
+     "type": "list",
+     "at": "@exemple",
+     "label": "PAR EXEMPLE",
+     "items": [
+      {
+       "at": "@horaires",
+       "text": "Arrivée et départ",
+       "mark": "ok",
+       "markAt": "@départ"
+      },
+      {
+       "at": "@nombre",
+       "text": "Nombre de voyageurs",
+       "mark": "ok",
+       "markAt": "@voyageurs"
+      },
+      {
+       "at": "@animaux",
+       "text": "Animaux",
+       "mark": "ok",
+       "markAt": "@animaux/e"
+      },
+      {
+       "at": "@heures",
+       "text": "Heures de silence",
+       "mark": "ok",
+       "markAt": "@silence"
+      }
+     ],
+     "minRows": 4
+    }
+   ]
+  },
+  {
+   "start": "@étape#3-0.05",
+   "end": "@étape#4-0.12",
+   "title": {
+    "num": 2,
+    "bold": "Le reste =",
+    "accent": "demandes"
+   },
+   "prop": "pencil",
+   "items": [
+    {
+     "type": "title",
+     "at": "@reste#2",
+     "label": "TOUT LE RESTE",
+     "text": "Une demande raisonnable"
+    },
+    {
+     "type": "pill",
+     "at": "@endroit",
+     "text": "tout au même endroit : ton annonce"
+    }
+   ]
+  },
+  {
+   "start": "@étape#4-0.05",
+   "end": "@cas-0.5",
+   "title": {
+    "num": 3,
+    "bold": "Après la",
+    "accent": "réservation"
+   },
+   "prop": "search",
+   "items": [
+    {
+     "type": "list",
+     "at": "@ajouter",
+     "label": "PLUS DE NOUVELLES RÈGLES",
+     "items": [
+      {
+       "at": "@message#2",
+       "text": "Par message",
+       "mark": "no",
+       "markAt": "@message#2/e"
+      },
+      {
+       "at": "@affichette",
+       "text": "Avec une affichette",
+       "mark": "no",
+       "markAt": "@affichette/e"
+      },
+      {
+       "at": "@ni#3",
+       "text": "À l'oral",
+       "mark": "no",
+       "markAt": "@ni#3+0.7"
+      }
+     ],
+     "minRows": 3
+    }
+   ]
+  },
+  {
+   "start": "@cas-0.45",
+   "end": "@commente-0.12",
+   "title": {
+    "bold": "Dégâts ?",
+    "accent": "AirCover"
+   },
+   "prop": "shield",
+   "items": [
+    {
+     "type": "strike",
+     "at": "@cas",
+     "label": "AVANT",
+     "text": "Amendes privées",
+     "strikeAt": "@privées"
+    },
+    {
+     "type": "title",
+     "at": "@aircover",
+     "label": "MAINTENANT",
+     "text": "AirCover"
+    }
+   ],
+   "happy": [
+    [
+     "@aircover",
+     "@commente"
+    ]
+   ]
+  },
+  {
+   "start": "@commente-0.05",
+   "end": 999,
+   "cta": {
+    "at": "@commente",
+    "word": "Commente",
+    "key": "RÈGLES",
+    "crewAt": "@règles",
+    "note": "et je t'envoie la checklist complète",
+    "noteAt": "@t'envoie"
+   }
+  }
+ ]
+}

@@ -1,0 +1,188 @@
+{
+ "name": "f4_avis",
+ "dir": "ltr",
+ "duration": "auto",
+ "handle": "",
+ "scenes": [
+  {
+   "start": 0,
+   "end": "@reste-0.12",
+   "title": {
+    "bold": "4 étoiles",
+    "accent": "au lieu de 5 ?"
+   },
+   "prop": "star",
+   "items": [
+    {
+     "type": "list",
+     "at": "@voyageurs",
+     "label": "TON DERNIER SÉJOUR",
+     "items": [
+      {
+       "at": "@bien",
+       "text": "Tout s'est bien passé",
+       "mark": "ok",
+       "markAt": "@passé"
+      }
+     ],
+     "minRows": 1
+    },
+    {
+     "type": "stat",
+     "at": "@étoiles",
+     "label": "AVIS VOYAGEUR",
+     "value": 4,
+     "suffix": "/5",
+     "countDur": 0.6,
+     "star": true
+    },
+    {
+     "type": "note",
+     "at": "@surpris",
+     "text": "un voyageur un peu surpris"
+    }
+   ]
+  },
+  {
+   "start": "@reste-0.05",
+   "end": "@réflexe#2-0.12",
+   "title": {
+    "accent": "3 réflexes"
+   },
+   "prop": "search"
+  },
+  {
+   "start": "@réflexe#2-0.05",
+   "end": "@réflexe#3-0.12",
+   "title": {
+    "num": 1,
+    "bold": "Photos",
+    "accent": "fidèles"
+   },
+   "prop": "search",
+   "items": [
+    {
+     "type": "list",
+     "at": "@photos",
+     "label": "À ÉVITER",
+     "items": [
+      {
+       "at": "@retouches",
+       "text": "Retouches qui embellissent",
+       "mark": "no",
+       "markAt": "@embellissent/e"
+      },
+      {
+       "at": "@d'équipement",
+       "text": "Équipements que tu n'as pas",
+       "mark": "no",
+       "markAt": "@d'équipement/e+0.7"
+      }
+     ],
+     "minRows": 2
+    }
+   ]
+  },
+  {
+   "start": "@réflexe#3-0.05",
+   "end": "@réflexe#4-0.12",
+   "title": {
+    "num": 2,
+    "bold": "Ne survends",
+    "accent": "pas"
+   },
+   "prop": "pencil",
+   "items": [
+    {
+     "type": "strike",
+     "at": "@mieux",
+     "label": "À ÉVITER",
+     "text": "Un voyageur déçu",
+     "strikeAt": "@déçu"
+    },
+    {
+     "type": "title",
+     "at": "@honnête-0.3",
+     "label": "PRÉFÈRE",
+     "text": "Une description honnête"
+    }
+   ]
+  },
+  {
+   "start": "@réflexe#4-0.05",
+   "end": "@jamais-0.9",
+   "title": {
+    "num": 3,
+    "bold": "Communique",
+    "accent": "avant"
+   },
+   "prop": "check",
+   "items": [
+    {
+     "type": "list",
+     "at": "@communique",
+     "label": "TES MESSAGES",
+     "items": [
+      {
+       "at": "@message",
+       "text": "Avant l'arrivée",
+       "mark": "ok",
+       "markAt": "@message/e+0.8"
+      },
+      {
+       "at": "@premier",
+       "text": "Le premier soir",
+       "mark": "ok",
+       "markAt": "@soir/e"
+      }
+     ],
+     "minRows": 2
+    }
+   ]
+  },
+  {
+   "start": "@jamais-0.85",
+   "end": "@commente-0.12",
+   "title": {
+    "accent": "Résultat"
+   },
+   "prop": "star",
+   "items": [
+    {
+     "type": "stat",
+     "at": "@met",
+     "label": "AVIS VOYAGEUR",
+     "value": 5,
+     "suffix": "/5",
+     "countDur": 0.6,
+     "star": true,
+     "color": "green"
+    },
+    {
+     "type": "stamp",
+     "at": "@surpris#2",
+     "text": "Jamais surpris",
+     "rot": -6
+    }
+   ],
+   "happy": [
+    [
+     "@met",
+     "@commente"
+    ]
+   ]
+  },
+  {
+   "start": "@commente-0.05",
+   "end": 999,
+   "cta": {
+    "at": "@commente",
+    "word": "Commente",
+    "key": "AVIS",
+    "crewAt": "@avis",
+    "note": "et je t'envoie mes modèles de messages",
+    "noteAt": "@t'envoie"
+   }
+  }
+ ]
+}

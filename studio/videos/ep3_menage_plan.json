@@ -1,0 +1,168 @@
+{
+ "ep": 3,
+ "chapters": [
+  "@regarde",
+  "@trois"
+ ],
+ "emph": [
+  "ménage",
+  "perdre",
+  "réservations",
+  "total",
+  "compris",
+  "80",
+  "60",
+  "140",
+  "cinq",
+  "460",
+  "92",
+  "cher",
+  "baisse",
+  "minimum",
+  "deux",
+  "compare"
+ ],
+ "coral": [
+  "140",
+  "92"
+ ],
+ "beats": [
+  {
+   "type": "icon",
+   "at": 0,
+   "icon": "broom",
+   "label": "Frais de ménage",
+   "chips": [
+    {
+     "at": "@perdre",
+     "text": "− réservations",
+     "x": 380,
+     "y": 760,
+     "kind": "coral"
+    }
+   ]
+  },
+  {
+   "type": "icon",
+   "at": "@aujourd",
+   "icon": "euro",
+   "label": "Prix total affiché",
+   "onAt": "@total+0.3",
+   "chips": [
+    {
+     "at": "@compris",
+     "text": "Ménage compris",
+     "x": 360,
+     "y": 760,
+     "kind": "dark",
+     "icon": "check"
+    },
+    {
+     "at": "@voit",
+     "text": "Visible tout de suite",
+     "x": 320,
+     "y": 860,
+     "kind": "coral"
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "at": "@regarde",
+   "num": "01",
+   "label": "L'exemple"
+  },
+  {
+   "type": "receipt",
+   "at": "@une",
+   "lines": [
+    {
+     "label": "1 nuit",
+     "value": "80 €",
+     "at": "@nuit"
+    },
+    {
+     "label": "Ménage",
+     "value": "60 €",
+     "at": "@avec"
+    }
+   ],
+   "total": "140 €",
+   "totalLabel": "Total affiché",
+   "totalAt": "@voit#2",
+   "sub": "pour 1 seule nuit"
+  },
+  {
+   "type": "compare",
+   "at": "@pour#2",
+   "cols": [
+    {
+     "k": "1 nuit",
+     "big": "140 €",
+     "s": "au total",
+     "tone": "bad",
+     "at": "@pour#2"
+    },
+    {
+     "k": "5 nuits",
+     "big": "92 €",
+     "s": "par nuit",
+     "tone": "good",
+     "at": "@soit"
+    }
+   ],
+   "chips": [
+    {
+     "at": "@paraît",
+     "text": "Courts séjours = plus cher",
+     "x": 250,
+     "y": 820,
+     "kind": "dark"
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "at": "@trois",
+   "num": "02",
+   "label": "Les solutions"
+  },
+  {
+   "type": "list",
+   "at": "@un",
+   "title": "3 solutions",
+   "items": [
+    {
+     "at": "@baisse",
+     "text": "Baisser le ménage, ajuster le prix/nuit",
+     "mark": "ok",
+     "markAt": "@nuit#5"
+    },
+    {
+     "at": "@fixe",
+     "text": "Minimum 2 nuits",
+     "mark": "ok",
+     "markAt": "@nuits#2"
+    },
+    {
+     "at": "@compare",
+     "text": "Comparer le prix total",
+     "mark": "ok",
+     "markAt": "@voisines"
+    }
+   ]
+  },
+  {
+   "type": "subscribe",
+   "at": "@abonne",
+   "clickAt": "@abonne+0.7",
+   "next": "Combien rapporte vraiment un Airbnb",
+   "nextAt": "@prochain",
+   "nextIcon": "cal"
+  }
+ ],
+ "name": "ep3_menage",
+ "engine": "engine2.html",
+ "series": "LOCATION COURTE DURÉE",
+ "duration": "auto"
+}

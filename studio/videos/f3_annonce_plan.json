@@ -1,0 +1,187 @@
+{
+ "name": "f3_annonce",
+ "dir": "ltr",
+ "duration": "auto",
+ "handle": "",
+ "scenes": [
+  {
+   "start": 0,
+   "end": "@beaucoup-0.12",
+   "title": {
+    "bold": "Ton annonce",
+    "accent": "avant le 20"
+   },
+   "prop": "pencil",
+   "items": [
+    {
+     "type": "title",
+     "at": "@novembre",
+     "label": "AIRBNB · RÈGLES DE LA MAISON",
+     "text": "20 novembre"
+    },
+    {
+     "type": "pill",
+     "at": "@changer",
+     "text": "quoi changer, exactement"
+    }
+   ]
+  },
+  {
+   "start": "@beaucoup-0.05",
+   "end": "@action#2-0.12",
+   "title": {
+    "accent": "Le piège"
+   },
+   "prop": "search",
+   "items": [
+    {
+     "type": "list",
+     "at": "@beaucoup",
+     "label": "BEAUCOUP D'HÔTES",
+     "items": [
+      {
+       "at": "@garder",
+       "text": "Gardent leurs anciennes règles",
+       "mark": "no",
+       "markAt": "@règles"
+      },
+      {
+       "at": "@voyageurs",
+       "text": "Voyageurs qui ne font plus rien",
+       "mark": "no",
+       "markAt": "@départ"
+      }
+     ],
+     "minRows": 2
+    },
+    {
+     "type": "note",
+     "at": "@reste",
+     "text": "3 actions · 10 minutes"
+    }
+   ]
+  },
+  {
+   "start": "@action#2-0.05",
+   "end": "@action#3-0.12",
+   "title": {
+    "num": 1,
+    "bold": "Relis",
+    "accent": "ton règlement"
+   },
+   "prop": "search",
+   "items": [
+    {
+     "type": "title",
+     "at": "@garde",
+     "label": "ACTION 1",
+     "text": "Garde seulement les règles standard",
+     "dark": true
+    }
+   ]
+  },
+  {
+   "start": "@action#3-0.05",
+   "end": "@action#4-0.12",
+   "title": {
+    "num": 2,
+    "bold": "Transforme",
+    "accent": "en demandes"
+   },
+   "prop": "pencil",
+   "items": [
+    {
+     "type": "title",
+     "at": "@merci",
+     "label": "EXEMPLE DE DEMANDE",
+     "text": "« Merci de laisser la vaisselle dans l'évier »",
+     "dark": true
+    },
+    {
+     "type": "stamp",
+     "at": "@polies",
+     "text": "Simple et poli",
+     "rot": -6
+    }
+   ]
+  },
+  {
+   "start": "@action#4-0.05",
+   "end": "@bon-0.12",
+   "title": {
+    "num": 3,
+    "bold": "Prévois",
+    "accent": "le ménage"
+   },
+   "prop": "check",
+   "items": [
+    {
+     "type": "list",
+     "at": "@prévois",
+     "label": "À PRÉVOIR",
+     "items": [
+      {
+       "at": "@organisation",
+       "text": "Dans ton organisation",
+       "mark": "ok",
+       "markAt": "@organisation/e"
+      },
+      {
+       "at": "@prix",
+       "text": "Dans ton prix",
+       "mark": "ok",
+       "markAt": "@prix/e"
+      }
+     ],
+     "minRows": 2
+    },
+    {
+     "type": "pill",
+     "at": "@équipe",
+     "text": "un peu plus de travail pour ton équipe"
+    }
+   ]
+  },
+  {
+   "start": "@bon-0.05",
+   "end": "@commente-0.12",
+   "title": {
+    "accent": "Anticipe"
+   },
+   "prop": "check",
+   "items": [
+    {
+     "type": "strike",
+     "at": "@bon",
+     "label": "À ÉVITER",
+     "text": "Attendre les mauvais avis",
+     "strikeAt": "@avis"
+    },
+    {
+     "type": "stamp",
+     "at": "@maintenant",
+     "text": "Maintenant !",
+     "rot": -6
+    }
+   ],
+   "happy": [
+    [
+     "@maintenant",
+     "@commente"
+    ]
+   ]
+  },
+  {
+   "start": "@commente-0.05",
+   "end": 999,
+   "cta": {
+    "at": "@commente",
+    "word": "Commente",
+    "key": "ANNONCE",
+    "crewAt": "@annonce",
+    "note": "et je t'envoie ma checklist",
+    "noteAt": "@t'envoie"
+   }
+  }
+ ]
+}

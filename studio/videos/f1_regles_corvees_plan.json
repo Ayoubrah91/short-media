@@ -1,0 +1,221 @@
+{
+ "name": "f1_regles_corvees",
+ "dir": "ltr",
+ "duration": "auto",
+ "handle": "",
+ "scenes": [
+  {
+   "start": 0,
+   "end": "@jusqu-0.12",
+   "title": {
+    "bold": "Fin des",
+    "accent": "corvées"
+   },
+   "prop": "doc",
+   "items": [
+    {
+     "type": "title",
+     "at": "@novembre",
+     "label": "AIRBNB · RÈGLES DE LA MAISON",
+     "text": "Dès le 20 novembre"
+    },
+    {
+     "type": "pill",
+     "at": "@furieux",
+     "text": "beaucoup d'hôtes sont furieux"
+    }
+   ]
+  },
+  {
+   "start": "@jusqu-0.05",
+   "end": "@voilà-0.12",
+   "title": {
+    "bold": "Avant le",
+    "accent": "20 novembre"
+   },
+   "prop": "search",
+   "items": [
+    {
+     "type": "list",
+     "at": "@jusqu",
+     "label": "CE QUE TU POUVAIS EXIGER",
+     "items": [
+      {
+       "at": "@vaisselle",
+       "text": "Faire la vaisselle",
+       "mark": "no",
+       "markAt": "@terminé"
+      },
+      {
+       "at": "@retirent",
+       "text": "Retirer les draps",
+       "mark": "no",
+       "markAt": "@terminé"
+      }
+     ],
+     "minRows": 2
+    },
+    {
+     "type": "note",
+     "at": "@reste",
+     "text": "reste jusqu'au bout : ce qui reste permis"
+    }
+   ]
+  },
+  {
+   "start": "@voilà-0.05",
+   "end": "@point#2-0.12",
+   "title": {
+    "accent": "3 points"
+   },
+   "prop": "search"
+  },
+  {
+   "start": "@point#2-0.05",
+   "end": "@point#3-0.12",
+   "title": {
+    "num": 1,
+    "bold": "Interdit",
+    "accent": "désormais"
+   },
+   "prop": "search",
+   "items": [
+    {
+     "type": "list",
+     "at": "@interdit",
+     "label": "TU NE PEUX PLUS EXIGER",
+     "items": [
+      {
+       "at": "@laver",
+       "text": "Laver et ranger la vaisselle",
+       "mark": "no",
+       "markAt": "@ranger/e"
+      },
+      {
+       "at": "@retirer",
+       "text": "Retirer les draps",
+       "mark": "no",
+       "markAt": "@draps#2/e"
+      },
+      {
+       "at": "@lancer",
+       "text": "Lancer une machine",
+       "mark": "no",
+       "markAt": "@machine/e"
+      },
+      {
+       "at": "@sortir",
+       "text": "Sortir les poubelles",
+       "mark": "no",
+       "markAt": "@poubelles/e"
+      }
+     ],
+     "minRows": 4
+    }
+   ]
+  },
+  {
+   "start": "@point#3-0.05",
+   "end": "@point#4-0.12",
+   "title": {
+    "num": 2,
+    "bold": "Toujours",
+    "accent": "permis"
+   },
+   "prop": "check",
+   "items": [
+    {
+     "type": "list",
+     "at": "@permis",
+     "label": "TU PEUX ENCORE DEMANDER",
+     "items": [
+      {
+       "at": "@laisser",
+       "text": "Vaisselle sale dans l'évier",
+       "mark": "ok",
+       "markAt": "@sale/e+0.6"
+      },
+      {
+       "at": "@rassembler",
+       "text": "Rassembler les serviettes",
+       "mark": "ok",
+       "markAt": "@serviettes/e"
+      },
+      {
+       "at": "@trier",
+       "text": "Trier les déchets",
+       "mark": "ok",
+       "markAt": "@déchets/e+0.4"
+      }
+     ],
+     "minRows": 3
+    }
+   ],
+   "happy": [
+    [
+     "@rassembler",
+     "@point#4"
+    ]
+   ]
+  },
+  {
+   "start": "@point#4-0.05",
+   "end": "@vaut-0.45",
+   "title": {
+    "num": 3,
+    "bold": "Zéro",
+    "accent": "pénalité"
+   },
+   "prop": "shield",
+   "items": [
+    {
+     "type": "title",
+     "at": "@si",
+     "label": "SI UNE TÂCHE N'EST PAS FAITE",
+     "text": "Tu ne peux pas sanctionner",
+     "dark": true
+    },
+    {
+     "type": "stamp",
+     "at": "@sanctionner",
+     "text": "Pas de sanction",
+     "rot": -6
+    }
+   ]
+  },
+  {
+   "start": "@vaut-0.4",
+   "end": "@commente-0.12",
+   "title": {
+    "accent": "À retenir"
+   },
+   "prop": "check",
+   "items": [
+    {
+     "type": "title",
+     "at": "@vaut",
+     "label": "S'APPLIQUE AUX RÉSERVATIONS",
+     "text": "Faites dès le 20 novembre"
+    }
+   ],
+   "happy": [
+    [
+     "@vaut",
+     "@commente"
+    ]
+   ]
+  },
+  {
+   "start": "@commente-0.05",
+   "end": 999,
+   "cta": {
+    "at": "@commente",
+    "word": "Commente",
+    "key": "RÈGLES",
+    "crewAt": "@règles",
+    "note": "et je t'envoie la checklist pour ton annonce",
+    "noteAt": "@t'envoie"
+   }
+  }
+ ]
+}

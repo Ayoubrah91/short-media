@@ -1,0 +1,239 @@
+{
+ "engine": "engine2.html",
+ "series": "LOCATION COURTE DURÉE",
+ "duration": "auto",
+ "ep": 7,
+ "name": "ep7_reponse",
+ "chapters": [
+  "@étape#2",
+  "@étape#3",
+  "@étape#4",
+  "@étape#5"
+ ],
+ "emph": [
+  "négatif",
+  "réflexe",
+  "défendre",
+  "mauvaise",
+  "idée",
+  "futurs",
+  "lire",
+  "quatre",
+  "attends",
+  "froid",
+  "remercie",
+  "reconnais",
+  "justifier",
+  "corrigé",
+  "réparé",
+  "phrases",
+  "jamais",
+  "personnelles",
+  "calme",
+  "pro"
+ ],
+ "coral": [
+  "froid",
+  "calme"
+ ],
+ "beats": [
+  {
+   "type": "stars",
+   "at": 0,
+   "label": "Nouvel avis",
+   "to": 2.0,
+   "fillAt": "@avis"
+  },
+  {
+   "type": "list",
+   "at": "@ton",
+   "title": "Premier réflexe",
+   "items": [
+    {
+     "at": "@répondre",
+     "text": "Répondre tout de suite",
+     "mark": "no",
+     "markAt": "@suite/e"
+    },
+    {
+     "at": "@défendre",
+     "text": "Se défendre",
+     "mark": "no",
+     "markAt": "@idée"
+    }
+   ]
+  },
+  {
+   "type": "grid",
+   "at": "@ta",
+   "items": [
+    {
+     "icon": "user",
+     "label": "Ce voyageur",
+     "at": "@ce",
+     "offAt": "@elle"
+    },
+    {
+     "icon": "user",
+     "label": "Futurs voyageurs",
+     "at": "@futurs",
+     "onAt": "@lire"
+    }
+   ],
+   "chips": [
+    {
+     "at": "@lire",
+     "text": "Ta réponse est publique",
+     "x": 290,
+     "y": 860,
+     "kind": "coral"
+    }
+   ]
+  },
+  {
+   "type": "icon",
+   "at": "@voilà",
+   "icon": "check",
+   "label": "La méthode",
+   "onAt": "@étapes",
+   "chips": [
+    {
+     "at": "@étapes",
+     "text": "4 étapes",
+     "x": 440,
+     "y": 760,
+     "kind": "coral"
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "at": "@étape#2",
+   "num": "01",
+   "label": "À froid"
+  },
+  {
+   "type": "icon",
+   "at": "@attends",
+   "icon": "clock",
+   "label": "Quelques heures",
+   "onAt": "@heures",
+   "chips": [
+    {
+     "at": "@froid",
+     "text": "Réponds à froid",
+     "x": 390,
+     "y": 760,
+     "kind": "coral"
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "at": "@étape#3",
+   "num": "02",
+   "label": "Remercie"
+  },
+  {
+   "type": "icon",
+   "at": "@remercie",
+   "icon": "heart",
+   "label": "Merci pour ton séjour",
+   "onAt": "@séjour"
+  },
+  {
+   "type": "chapter",
+   "at": "@étape#4",
+   "num": "03",
+   "label": "Reconnais"
+  },
+  {
+   "type": "icon",
+   "at": "@reconnais",
+   "icon": "check",
+   "label": "Reconnais le problème",
+   "onAt": "@problème",
+   "chips": [
+    {
+     "at": "@justifier",
+     "text": "Pas 10 lignes de justification",
+     "x": 230,
+     "y": 760,
+     "kind": "dark",
+     "icon": "x"
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "at": "@étape#5",
+   "num": "04",
+   "label": "Ce qui a changé"
+  },
+  {
+   "type": "chat",
+   "at": "@explique",
+   "msgs": [
+    {
+     "me": true,
+     "text": "Merci pour votre retour. Le chauffage a été réparé depuis.",
+     "at": "@exemple"
+    }
+   ],
+   "chips": [
+    {
+     "at": "@réparé",
+     "text": "Problème corrigé",
+     "x": 380,
+     "y": 1000,
+     "kind": "coral",
+     "icon": "check"
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "at": "@trois",
+   "cols": [
+    {
+     "k": "Ta réponse",
+     "big": "3-4",
+     "s": "phrases",
+     "tone": "good",
+     "at": "@phrases"
+    },
+    {
+     "k": "Infos perso",
+     "big": "0",
+     "s": "jamais",
+     "tone": "bad",
+     "at": "@jamais"
+    }
+   ]
+  },
+  {
+   "type": "icon",
+   "at": "@une",
+   "icon": "trophy",
+   "label": "Calme et pro",
+   "onAt": "@rassure",
+   "chips": [
+    {
+     "at": "@prochains",
+     "text": "Rassure les prochains voyageurs",
+     "x": 200,
+     "y": 760,
+     "kind": "coral"
+    }
+   ]
+  },
+  {
+   "type": "subscribe",
+   "at": "@abonne",
+   "clickAt": "@abonne+0.7",
+   "next": "Les équipements que les voyageurs filtrent",
+   "nextAt": "@prochain",
+   "nextIcon": "search"
+  }
+ ]
+}
